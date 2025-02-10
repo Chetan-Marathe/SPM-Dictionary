@@ -1,0 +1,32 @@
+[
+  {
+    "keyword": "Software Development Life Cycle",
+    "response": [
+      "SDLC is a structured process for software development.",
+      "It includes phases: Requirement Analysis, Design, Implementation, Testing, Deployment, and Maintenance.",
+      "Ensures software quality and efficiency.",
+      "Models include Waterfall, Agile, Spiral, and V-Model.",
+      "Each phase has specific deliverables and objectives."
+    ]
+  },
+  {
+    "keyword": "Agile Methodology",
+    "response": [
+      "Agile promotes iterative and incremental development.",
+      "Uses sprints (short development cycles) to deliver features quickly.",
+      "Focuses on collaboration between teams and customers.",
+      "Popular Agile frameworks include Scrum and Kanban.",
+      "Reduces risks by allowing continuous feedback and improvements."
+    ]
+  },
+  {
+    "keyword": "Risk Management in SPM",
+    "response": [
+      "Risk management identifies and mitigates project risks.",
+      "Includes risk identification, assessment, and response planning.",
+      "Common risks: scope creep, budget overruns, and technical failures.",
+      "Strategies: Avoid, Transfer, Mitigate, or Accept risks.",
+      "Continuous monitoring ensures project success."
+    ]
+  }
+]

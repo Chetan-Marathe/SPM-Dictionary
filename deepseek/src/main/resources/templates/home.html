@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>SPM Dictionary</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+        }
+        input[type="text"] {
+            padding: 10px;
+            width: 50%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .result-container {
+            margin-top: 20px;
+            padding: 20px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            text-align: left;
+        }
+        .point {
+            margin: 10px 0;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>SPM Dictionary</h1>
+<p>Enter an SPM keyword to get a concise 5-point explanation.</p>
+
+<form action="/query" method="get">
+    <input type="text" name="keyword" placeholder="Enter SPM keyword" required>
+    <button type="submit">Search</button>
+</form>
+
+<div th:if="${response}" class="result-container">
+    <h2>Results for: <span th:text="${keyword}"></span></h2>
+    <ul>
+        <li th:each="point : ${response}" class="point" th:text="${point}"></li>
+    </ul>
+</div>
+
+</body>
+</html>
