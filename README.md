@@ -1,0 +1,2 @@
+# SPM-Dictionary
+SPM DICTIONARY
