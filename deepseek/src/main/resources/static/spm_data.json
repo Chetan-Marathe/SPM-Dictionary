@@ -1,32 +1,2564 @@
 [
   {
-    "keyword": "Software Development Life Cycle",
+    "keyword": "Software Project",
     "response": [
-      "SDLC is a structured process for software development.",
-      "It includes phases: Requirement Analysis, Design, Implementation, Testing, Deployment, and Maintenance.",
-      "Ensures software quality and efficiency.",
-      "Models include Waterfall, Agile, Spiral, and V-Model.",
-      "Each phase has specific deliverables and objectives."
+      "A software project is a planned effort to develop, maintain, or enhance software.",
+      "It follows a structured approach with defined objectives and timelines.",
+      "Includes phases like planning, development, testing, and deployment.",
+      "Requires collaboration among developers, designers, testers, and stakeholders.",
+      "Uses methodologies like Agile, Waterfall, or DevOps for execution."
+    ]
+  },
+  {
+    "keyword": "Need of Software Project Management",
+    "response": [
+      "Ensures software projects are completed on time and within budget.",
+      "Helps in resource allocation, risk management, and quality assurance.",
+      "Improves team coordination and communication.",
+      "Manages changing requirements and project scope effectively.",
+      "Ensures customer satisfaction through structured development processes."
+    ]
+  },
+  {
+    "keyword": "Project",
+    "response": [
+      "A project is a temporary effort undertaken to create a unique product, service, or result.",
+      "Has a defined start and end with specific objectives.",
+      "Requires planning, execution, and monitoring to achieve goals.",
+      "Can be of various types, including construction, IT, and business projects.",
+      "Success depends on scope, time, cost, and quality management."
+    ]
+  },
+  {
+    "keyword": "Software Project versus Other Types of Project",
+    "response": [
+      "Software projects focus on developing digital solutions, while others may involve physical infrastructure.",
+      "Software development is iterative and allows frequent modifications, unlike traditional projects.",
+      "Requires specialized skills like programming, testing, and UX design.",
+      "More flexible in scope but prone to requirement changes.",
+      "Uses methodologies like Agile and Waterfall, unlike construction or manufacturing projects."
+    ]
+  },
+  {
+    "keyword": "Project vs Flow Type Work",
+    "response": [
+      "Projects are temporary with a defined objective, while flow-type work is continuous and repetitive.",
+      "Projects have unique deliverables, while flow-type work maintains consistent output.",
+      "Project management requires detailed planning, while flow work follows routine procedures.",
+      "Projects involve higher risks and uncertainties compared to flow work.",
+      "Flow-type work is common in manufacturing, while projects are used in IT, construction, and research."
+    ]
+  },
+  {
+    "keyword": "Project Life Cycle",
+    "response": [
+      "Defines the stages a project goes through from initiation to closure.",
+      "Includes phases: Initiation, Planning, Execution, Monitoring & Control, and Closure.",
+      "Helps in structuring and managing the project efficiently.",
+      "Each phase has deliverables, objectives, and review processes.",
+      "Ensures systematic progress and successful completion of the project."
+    ]
+  },
+  {
+    "keyword": "Processes and Knowledge Areas in Project Management",
+    "response": [
+      "Project management involves five processes: Initiation, Planning, Execution, Monitoring, and Closure.",
+      "Knowledge areas include scope, schedule, cost, quality, and risk management.",
+      "Ensures efficient resource allocation and risk mitigation.",
+      "Helps in achieving project goals within time and budget constraints.",
+      "Uses tools like Gantt charts, risk matrices, and status reports."
+    ]
+  },
+  {
+    "keyword": "Build or Buy Decision",
+    "response": [
+      "Determines whether to develop software in-house or purchase from a vendor.",
+      "Build decision provides customization but requires higher costs and effort.",
+      "Buy decision is cost-effective and faster but may lack specific features.",
+      "Factors considered: cost, time, expertise, and long-term needs.",
+      "A hybrid approach may be used by integrating third-party solutions with in-house development."
+    ]
+  },
+  {
+    "keyword": "Work Breakdown Structure",
+    "response": [
+      "A hierarchical decomposition of project work into smaller tasks.",
+      "Helps in organizing tasks for better project planning and execution.",
+      "Improves task allocation, scheduling, and progress tracking.",
+      "Follows a tree-like structure with deliverables at each level.",
+      "Essential for estimating cost, time, and resources required for the project."
+    ]
+  },
+  {
+    "keyword": "Resource Breakdown Structure",
+    "response": [
+      "A hierarchical breakdown of project resources, including human, material, and financial resources.",
+      "Helps in efficient resource allocation and management.",
+      "Ensures proper distribution of workload and budget tracking.",
+      "Used for estimating costs and scheduling resources effectively.",
+      "Enhances project planning and reduces risks of resource shortages."
+    ]
+  },
+  {
+    "keyword": "Risk Breakdown Structure",
+    "response": [
+      "A structured approach to categorizing project risks.",
+      "Divides risks into different levels: technical, financial, external, and organizational.",
+      "Helps in identifying, assessing, and mitigating risks systematically.",
+      "Improves risk communication among stakeholders.",
+      "Ensures proactive risk management for project success."
+    ]
+  },
+  {
+    "keyword": "Organizational Breakdown Structure",
+    "response": [
+      "Defines the hierarchical structure of an organization for project management.",
+      "Shows roles, responsibilities, and reporting relationships.",
+      "Helps in resource allocation and team coordination.",
+      "Ensures clarity in task distribution and accountability.",
+      "Used in large projects to streamline management and communication."
+    ]
+  },
+  {
+    "keyword": "Evolutionary Work Breakdown Structure",
+    "response": [
+      "A flexible WBS that evolves as project requirements change.",
+      "Suitable for Agile and iterative development models.",
+      "Allows continuous refinement of work packages.",
+      "Adapts to new risks, technologies, and stakeholder needs.",
+      "Enhances project flexibility and responsiveness."
+    ]
+  },
+  {
+    "keyword": "Project Management Body of Knowledge",
+    "response": [
+      "A comprehensive framework defining best practices in project management.",
+      "Includes standardized guidelines for project execution and control.",
+      "Covers knowledge areas like scope, cost, time, quality, and risk management.",
+      "Published and maintained by PMI (Project Management Institute).",
+      "Widely used as a reference for project management certifications like PMP."
+    ]
+  },
+  {
+    "keyword": "Purpose of PMBOK",
+    "response": [
+      "Provides a standard framework for project management processes.",
+      "Ensures consistency and best practices in project execution.",
+      "Helps project managers effectively plan, execute, and control projects.",
+      "Facilitates communication and coordination among stakeholders.",
+      "Used as a foundation for professional certifications like PMP."
+    ]
+  },
+  {
+    "keyword": "Program Management",
+    "response": [
+      "The process of managing multiple related projects to achieve strategic goals.",
+      "Ensures alignment between projects and business objectives.",
+      "Focuses on coordination, resource sharing, and risk management.",
+      "Improves efficiency by eliminating redundancies across projects.",
+      "Common in large organizations for handling complex initiatives."
+    ]
+  },
+  {
+    "keyword": "Portfolio Management",
+    "response": [
+      "The centralized management of multiple programs and projects.",
+      "Ensures projects align with organizational strategy and priorities.",
+      "Optimizes resource allocation across projects for maximum ROI.",
+      "Focuses on balancing risk, investment, and strategic objectives.",
+      "Helps organizations achieve long-term growth and competitive advantage."
+    ]
+  },
+  {
+    "keyword": "Different WBS Types",
+    "response": [
+      "Deliverable-Based WBS: Focuses on project deliverables and milestones.",
+      "Phase-Based WBS: Breaks down work by project phases (e.g., Initiation, Planning, Execution).",
+      "Functional WBS: Organizes tasks based on departments or teams responsible.",
+      "Resource-Based WBS: Categorizes tasks based on required resources.",
+      "Hybrid WBS: Combines multiple approaches for complex projects."
+    ]
+  },
+  {
+    "keyword": "Tree Structure View",
+    "response": [
+      "A hierarchical representation of project components.",
+      "Shows relationships between tasks, deliverables, and work packages.",
+      "Helps in visualizing dependencies and task breakdowns.",
+      "Used in Work Breakdown Structure (WBS) for project planning.",
+      "Enhances clarity in task assignment and project execution."
+    ]
+  },
+  {
+    "keyword": "Integration Management",
+    "response": [
+      "Ensures different project elements work together seamlessly.",
+      "Includes processes like project charter development and plan integration.",
+      "Helps in change management and issue resolution.",
+      "Ensures alignment with organizational objectives.",
+      "Key tool: Project Integration Management Plan."
+    ]
+  },
+  {
+    "keyword": "Scope Management",
+    "response": [
+      "Defines what is included and excluded in a project.",
+      "Prevents scope creep by managing requirement changes.",
+      "Includes processes: Scope Planning, Definition, Validation, and Control.",
+      "Ensures project goals are met without unnecessary expansion.",
+      "Key tool: Work Breakdown Structure (WBS)."
+    ]
+  },
+  {
+    "keyword": "Schedule Management",
+    "response": [
+      "Involves planning, monitoring, and controlling project timelines.",
+      "Uses techniques like Gantt charts and Critical Path Method (CPM).",
+      "Helps in identifying task dependencies and scheduling risks.",
+      "Ensures timely project completion within deadlines.",
+      "Key tool: Project Schedule Management Plan."
+    ]
+  },
+  {
+    "keyword": "Cost Management",
+    "response": [
+      "Focuses on budgeting, cost estimation, and expense tracking.",
+      "Ensures project costs stay within approved limits.",
+      "Includes processes: Cost Estimation, Budgeting, and Control.",
+      "Helps in financial planning and resource allocation.",
+      "Key tool: Earned Value Management (EVM)."
+    ]
+  },
+  {
+    "keyword": "Quality Management",
+    "response": [
+      "Ensures project deliverables meet required standards.",
+      "Includes Quality Planning, Assurance, and Control processes.",
+      "Uses tools like Six Sigma and Total Quality Management (TQM).",
+      "Reduces defects and enhances customer satisfaction.",
+      "Key tool: Quality Management Plan."
+    ]
+  },
+  {
+    "keyword": "Resource Management",
+    "response": [
+      "Focuses on planning, allocating, and managing project resources.",
+      "Includes human, material, and financial resource management.",
+      "Ensures optimal resource utilization for efficiency.",
+      "Helps in workload balancing and conflict resolution.",
+      "Key tool: Resource Breakdown Structure (RBS)."
+    ]
+  },
+  {
+    "keyword": "Communication Management",
+    "response": [
+      "Ensures effective information flow among stakeholders.",
+      "Includes processes for communication planning and monitoring.",
+      "Uses tools like emails, meetings, and collaboration software.",
+      "Reduces misunderstandings and project delays.",
+      "Key tool: Communication Management Plan."
+    ]
+  },
+  {
+    "keyword": "Risk Management",
+    "response": [
+      "Identifies, analyzes, and mitigates project risks.",
+      "Includes risk assessment, response planning, and monitoring.",
+      "Strategies: Avoid, Mitigate, Transfer, or Accept risks.",
+      "Reduces uncertainties and improves project success rate.",
+      "Key tool: Risk Breakdown Structure (RBS)."
+    ]
+  },
+  {
+    "keyword": "Procurement Management",
+    "response": [
+      "Focuses on acquiring goods and services for the project.",
+      "Includes vendor selection, contract negotiation, and performance monitoring.",
+      "Ensures cost-effectiveness and timely resource availability.",
+      "Reduces risks of supply chain disruptions.",
+      "Key tool: Procurement Management Plan."
+    ]
+  },
+  {
+    "keyword": "Stakeholder Management",
+    "response": [
+      "Identifies and manages project stakeholders.",
+      "Ensures stakeholders' expectations align with project goals.",
+      "Includes stakeholder engagement and communication strategies.",
+      "Reduces conflicts and enhances project support.",
+      "Key tool: Stakeholder Register and Engagement Plan."
+    ]
+  },
+
+  {
+    "keyword": "Project Management",
+    "response": [
+      "Project management involves planning, executing, and controlling projects to meet objectives.",
+      "Ensures projects are completed within scope, time, cost, and quality constraints.",
+      "Uses methodologies like Agile, Waterfall, and PRINCE2.",
+      "Includes key areas: scope, schedule, cost, quality, risk, and communication management.",
+      "Essential for achieving business goals efficiently."
+    ]
+  },
+  {
+    "keyword": "Steps for Project Planning",
+    "response": [
+      "Define project scope, objectives, and deliverables.",
+      "Identify tasks and break them into a structured plan.",
+      "Estimate time, cost, and resources needed for execution.",
+      "Assess risks and develop mitigation strategies.",
+      "Document the plan and obtain stakeholder approval."
+    ]
+  },
+  {
+    "keyword": "Choose Project",
+    "response": [
+      "Select a project based on organizational goals and feasibility.",
+      "Consider factors like budget, resources, and expected ROI.",
+      "Analyze market needs, risks, and potential benefits.",
+      "Evaluate technical and financial viability.",
+      "Ensure stakeholder alignment before initiating the project."
+    ]
+  },
+  {
+    "keyword": "Classify Scope of the Project and Objectives",
+    "response": [
+      "Define what is included and excluded in the project.",
+      "Set clear, measurable objectives aligned with business goals.",
+      "Identify key deliverables and milestones.",
+      "Prevent scope creep by controlling requirement changes.",
+      "Use Work Breakdown Structure (WBS) for detailed scope classification."
+    ]
+  },
+  {
+    "keyword": "Classify Project Infrastructure",
+    "response": [
+      "Identify physical, technical, and human resources required.",
+      "Define hardware, software, and networking needs.",
+      "Establish project teams and their responsibilities.",
+      "Ensure necessary facilities, tools, and technologies are available.",
+      "Plan for scalability and future infrastructure needs."
+    ]
+  },
+  {
+    "keyword": "Examine Project Characteristics",
+    "response": [
+      "Analyze project size, complexity, and duration.",
+      "Identify dependencies and constraints.",
+      "Assess risk factors and potential challenges.",
+      "Determine required expertise and skill sets.",
+      "Define performance and success criteria."
+    ]
+  },
+  {
+    "keyword": "Classify Project Products and Activities",
+    "response": [
+      "Identify final deliverables and intermediate outputs.",
+      "Break down tasks into structured activities.",
+      "Determine dependencies between activities.",
+      "Align activities with project milestones.",
+      "Ensure tasks contribute to project objectives."
+    ]
+  },
+  {
+    "keyword": "Calculate Effort for Each Activity",
+    "response": [
+      "Estimate time required for task completion.",
+      "Use historical data and expert judgment for accuracy.",
+      "Consider factors like complexity and resource availability.",
+      "Adjust estimates based on risk analysis.",
+      "Document effort estimates for scheduling and budgeting."
+    ]
+  },
+  {
+    "keyword": "Classify Activity Risks",
+    "response": [
+      "Identify risks associated with each task or milestone.",
+      "Assess probability and impact of risks.",
+      "Develop risk mitigation and contingency plans.",
+      "Monitor risks throughout the project lifecycle.",
+      "Use a Risk Breakdown Structure (RBS) for categorization."
+    ]
+  },
+  {
+    "keyword": "Allocate Resources",
+    "response": [
+      "Assign personnel, budget, and materials to tasks.",
+      "Ensure optimal resource utilization and workload balancing.",
+      "Resolve conflicts in resource allocation.",
+      "Monitor availability and adjust as needed.",
+      "Use Resource Breakdown Structure (RBS) for efficient planning."
+    ]
+  },
+  {
+    "keyword": "Review Plan",
+    "response": [
+      "Verify alignment with project goals and constraints.",
+      "Identify gaps or inconsistencies in the plan.",
+      "Validate estimates, schedules, and resource allocations.",
+      "Seek stakeholder feedback and approval.",
+      "Update plan based on review findings before execution."
+    ]
+  },
+  {
+    "keyword": "Execute Plan",
+    "response": [
+      "Implement project tasks as per the approved plan.",
+      "Monitor progress and ensure adherence to schedule.",
+      "Manage team collaboration and task dependencies.",
+      "Address issues and make adjustments if needed.",
+      "Ensure quality control throughout execution."
+    ]
+  },
+  {
+    "keyword": "Execute Lower Levels of Planning",
+    "response": [
+      "Break down high-level plans into detailed task-level execution.",
+      "Allocate specific responsibilities to team members.",
+      "Track progress at a granular level to ensure efficiency.",
+      "Adjust short-term plans based on real-time project updates.",
+      "Ensure lower-level execution aligns with overall project goals."
+    ]
+  },
+  {
+    "keyword": "Benefits of Critical Path",
+    "response": [
+      "Identifies the longest sequence of dependent tasks in a project.",
+      "Helps in determining the shortest possible project duration.",
+      "Aids in resource allocation and prioritization of critical tasks.",
+      "Reduces project risks by focusing on time-sensitive activities.",
+      "Improves project scheduling and tracking."
+    ]
+  },
+  {
+    "keyword": "PERT Chart",
+    "response": [
+      "A project management tool used to analyze and schedule tasks.",
+      "Displays task dependencies and sequence in a network diagram.",
+      "Uses three time estimates: Optimistic, Pessimistic, and Most Likely.",
+      "Helps in risk assessment and project uncertainty management.",
+      "Commonly used for complex projects with uncertain timelines."
+    ]
+  },
+  {
+    "keyword": "Advantages of PERT",
+    "response": [
+      "Improves project scheduling by accounting for uncertainties.",
+      "Helps in identifying task dependencies and critical paths.",
+      "Enables better resource allocation and risk management.",
+      "Provides a visual representation of the project timeline.",
+      "Supports decision-making through probabilistic time estimation."
+    ]
+  },
+  {
+    "keyword": "Disadvantages of PERT",
+    "response": [
+      "Complex and time-consuming to create for large projects.",
+      "Requires accurate time estimates, which may be difficult to obtain.",
+      "Does not account for resource constraints directly.",
+      "Can be difficult to update with project changes.",
+      "May not be suitable for simple or linear projects."
+    ]
+  },
+  {
+    "keyword": "Optimistic Time",
+    "response": [
+      "The shortest possible time required to complete a task.",
+      "Assumes everything goes perfectly with no delays.",
+      "Used in PERT calculations to estimate project duration.",
+      "Helps in assessing best-case scenarios in scheduling.",
+      "Part of the three-point estimation technique in project management."
+    ]
+  },
+  {
+    "keyword": "Pessimistic Time",
+    "response": [
+      "The longest possible time required to complete a task.",
+      "Accounts for potential delays, risks, and uncertainties.",
+      "Used in PERT calculations for worst-case scenario analysis.",
+      "Helps in risk management and contingency planning.",
+      "Provides a buffer for unexpected issues in project execution."
+    ]
+  },
+  {
+    "keyword": "PERT Formula",
+    "response": [
+      "Used to estimate the expected duration of a task.",
+      "Formula: Expected Time (TE) = (Optimistic + 4 × Most Likely + Pessimistic) / 6.",
+      "Balances best-case, worst-case, and realistic estimates.",
+      "Helps in project planning by accounting for uncertainties.",
+      "Improves accuracy in project scheduling and risk analysis."
+    ]
+  },
+  {
+    "keyword": "Gantt Chart",
+    "response": [
+      "A bar chart used to represent project schedules visually.",
+      "Displays tasks, their durations, and dependencies over time.",
+      "Helps in tracking project progress and deadlines.",
+      "Enables better resource allocation and workload management.",
+      "Commonly used in project management for simple and complex tasks."
+    ]
+  },
+  {
+    "keyword": "Disadvantages of Utilizing the Gantt Chart",
+    "response": [
+      "Can become overly complex for large projects.",
+      "Difficult to update when project changes occur frequently.",
+      "Does not effectively show task dependencies.",
+      "Limited in handling resource allocation constraints.",
+      "May require additional tools for risk and critical path analysis."
+    ]
+  },
+  {
+    "keyword": "How to Make Gantt Chart",
+    "response": [
+      "List all project tasks and their durations.",
+      "Determine task dependencies and sequence.",
+      "Use a horizontal bar chart to represent tasks over time.",
+      "Mark milestones and deadlines for tracking progress.",
+      "Update the chart regularly to reflect project changes."
+    ]
+  },
+  {
+    "keyword": "PERT Chart vs Gantt Chart",
+    "response": [
+      "PERT Chart focuses on task dependencies and project uncertainty.",
+      "Gantt Chart emphasizes timelines and task scheduling.",
+      "PERT uses network diagrams, while Gantt uses bar charts.",
+      "PERT is useful for complex projects with unpredictable timelines.",
+      "Gantt is ideal for tracking progress and managing resources visually."
+    ]
+  },
+  {
+    "keyword": "Gantt Project",
+    "response": [
+      "An open-source project management software.",
+      "Provides Gantt chart visualization for project planning.",
+      "Helps in scheduling, resource allocation, and tracking.",
+      "Supports task dependencies and progress monitoring.",
+      "Used for managing small to medium-sized projects."
+    ]
+  },
+  {
+    "keyword": "Purpose of a PERT Chart",
+    "response": [
+      "Helps in planning and scheduling project tasks efficiently.",
+      "Identifies task dependencies and the critical path.",
+      "Provides probabilistic time estimates for project completion.",
+      "Assists in managing project risks and uncertainties.",
+      "Enhances decision-making and project control."
+    ]
+  },
+  {
+    "keyword": "Microsoft Project",
+    "response": [
+      "A project management software developed by Microsoft.",
+      "Helps in planning, scheduling, and tracking project progress.",
+      "Supports Gantt charts, task dependencies, and resource allocation.",
+      "Integrates with other Microsoft tools like Excel and Teams.",
+      "Used for managing projects in various industries."
+    ]
+  },
+  {
+    "keyword": "Primavera Project Management Software",
+    "response": [
+      "An advanced project management tool by Oracle.",
+      "Designed for large-scale, complex project planning and execution.",
+      "Supports risk analysis, resource management, and scheduling.",
+      "Used in industries like construction, engineering, and manufacturing.",
+      "Provides multi-project handling and enterprise-level solutions."
+    ]
+  },
+  {
+    "keyword": "ORACLE",
+    "response": [
+      "A multinational technology company known for databases and cloud solutions.",
+      "Develops enterprise software, including ERP and project management tools.",
+      "Owns Primavera, a leading project management software.",
+      "Provides database solutions for large-scale business applications.",
+      "Offers cloud infrastructure services and AI-powered analytics."
+    ]
+  },
+  {
+    "keyword": "ERP",
+    "response": [
+      "Enterprise Resource Planning (ERP) integrates business processes.",
+      "Combines finance, HR, supply chain, and manufacturing in a single system.",
+      "Improves efficiency by automating business workflows.",
+      "Common ERP providers include SAP, Oracle, and Microsoft.",
+      "Enhances data accuracy and decision-making across departments."
+    ]
+  },
+  {
+    "keyword": "Features of Primavera",
+    "response": [
+      "Advanced project scheduling and planning capabilities.",
+      "Supports multiple projects with complex dependencies.",
+      "Includes risk management and performance analysis tools.",
+      "Enables resource and cost management at an enterprise level.",
+      "Provides detailed reporting and collaboration features."
+    ]
+  },
+  {
+    "keyword": "Primavera Pros",
+    "response": [
+      "Ideal for large-scale projects with complex needs.",
+      "Robust resource and risk management features.",
+      "Highly customizable with detailed project insights.",
+      "Supports integration with ERP and business intelligence tools.",
+      "Improves forecasting and strategic planning."
+    ]
+  },
+  {
+    "keyword": "Primavera Cons",
+    "response": [
+      "Expensive and requires extensive training for new users.",
+      "Complex interface with a steep learning curve.",
+      "Limited support for small and simple projects.",
+      "Requires significant hardware and software resources.",
+      "May be overkill for basic project management needs."
+    ]
+  },
+  {
+    "keyword": "MS Project Features",
+    "response": [
+      "Task scheduling with Gantt charts and dependencies.",
+      "Resource allocation and workload balancing tools.",
+      "Budget tracking and cost estimation capabilities.",
+      "Integration with Microsoft Office suite.",
+      "Collaboration and reporting features for project teams."
+    ]
+  },
+  {
+    "keyword": "MS Project Pros",
+    "response": [
+      "User-friendly interface with seamless integration into Microsoft tools.",
+      "Effective for small to medium-sized projects.",
+      "Good reporting and visualization tools like Gantt charts.",
+      "Affordable compared to Primavera.",
+      "Supports cloud-based collaboration."
+    ]
+  },
+  {
+    "keyword": "MS Project Cons",
+    "response": [
+      "Limited scalability for enterprise-level projects.",
+      "Lacks advanced risk management and forecasting tools.",
+      "Requires Microsoft ecosystem for full functionality.",
+      "Not ideal for multi-project management.",
+      "Can become complex for large teams and extensive workflows."
+    ]
+  },
+  {
+    "keyword": "Objectives of Project Planning",
+    "response": [
+      "Define project scope, deliverables, and goals.",
+      "Estimate time, cost, and resources required.",
+      "Identify risks and develop mitigation strategies.",
+      "Ensure efficient resource allocation and scheduling.",
+      "Establish clear communication and stakeholder involvement."
+    ]
+  },
+  {
+    "keyword": "Project Schedules",
+    "response": [
+      "A structured timeline for project activities and milestones.",
+      "Helps in tracking progress and meeting deadlines.",
+      "Includes task dependencies and critical path analysis.",
+      "Essential for resource allocation and workload management.",
+      "Can be represented using Gantt charts or PERT diagrams."
+    ]
+  },
+  {
+    "keyword": "Activities",
+    "response": [
+      "Tasks or actions needed to complete a project.",
+      "Can be sequential or parallel based on dependencies.",
+      "Defined based on project objectives and deliverables.",
+      "Help in estimating time and resource requirements.",
+      "Monitored to ensure project stays on track."
+    ]
+  },
+  {
+    "keyword": "Identifying Activities",
+    "response": [
+      "Process of breaking down project tasks into individual actions.",
+      "Essential for accurate project planning and scheduling.",
+      "Includes dependencies, durations, and resource requirements.",
+      "Can be done using various approaches like activity-based or product-based.",
+      "Helps in defining milestones and key deliverables."
+    ]
+  },
+  {
+    "keyword": "The Activity-Based Approach",
+    "response": [
+      "Breaks down a project into tasks required for execution.",
+      "Focuses on work processes and operational steps.",
+      "Ensures all necessary activities are accounted for.",
+      "Commonly used in traditional project planning methods.",
+      "Helps in estimating time and resources accurately."
+    ]
+  },
+  {
+    "keyword": "The Product-Based Approach",
+    "response": [
+      "Focuses on deliverables and outputs rather than tasks.",
+      "Defines project activities based on final product requirements.",
+      "Ensures alignment with business objectives and stakeholder needs.",
+      "Helps in quality control and tracking project outcomes.",
+      "Used in Agile and iterative development approaches."
+    ]
+  },
+  {
+    "keyword": "The Hybrid Approach",
+    "response": [
+      "Combines activity-based and product-based approaches.",
+      "Balances process efficiency with final product quality.",
+      "Ensures structured task management and goal alignment.",
+      "Provides flexibility in adapting to project changes.",
+      "Used in modern project management methodologies."
+    ]
+  },
+
+  {
+    "keyword": "Sequencing and Scheduling",
+    "response": [
+      "Sequencing determines the order of task execution.",
+      "Scheduling assigns time frames to tasks for project completion.",
+      "Ensures optimal resource utilization and project efficiency.",
+      "Methods include priority scheduling, FIFO, LIFO, and shortest job first.",
+      "Essential for minimizing project delays and improving workflow."
+    ]
+  },
+  {
+    "keyword": "Network Planning Models",
+    "response": [
+      "Used to represent project tasks and dependencies graphically.",
+      "Includes techniques like PERT and CPM for scheduling and planning.",
+      "Helps in determining critical paths and project timelines.",
+      "Enables efficient resource allocation and risk management.",
+      "Essential for complex projects with multiple interdependent activities."
+    ]
+  },
+  {
+    "keyword": "Formulating a Network Model",
+    "response": [
+      "Involves defining project activities and dependencies.",
+      "Uses nodes and arrows to represent tasks and their sequences.",
+      "Helps in identifying critical tasks and project duration.",
+      "Utilizes techniques like Activity-on-Node (AON) and Activity-on-Arrow (AOA).",
+      "Provides a structured approach to project scheduling and tracking."
+    ]
+  },
+  {
+    "keyword": "Critical Path of CPM",
+    "response": [
+      "The longest sequence of dependent tasks in a project network.",
+      "Determines the shortest possible project duration.",
+      "Tasks on the critical path have zero slack time.",
+      "Delays in critical path tasks directly impact project completion.",
+      "Used to optimize scheduling and resource management."
+    ]
+  },
+  {
+    "keyword": "Activity Based Scheduling",
+    "response": [
+      "Focuses on scheduling tasks based on activity dependencies.",
+      "Ensures logical sequencing of project tasks.",
+      "Helps in optimizing resource allocation and project duration.",
+      "Used in methodologies like CPM and PERT.",
+      "Improves project tracking and progress monitoring."
+    ]
+  },
+  {
+    "keyword": "Objectives of Project Planning",
+    "response": [
+      "Define project scope, goals, and deliverables.",
+      "Estimate time, cost, and resources required.",
+      "Identify risks and develop mitigation strategies.",
+      "Ensure efficient resource allocation and scheduling.",
+      "Establish clear communication and stakeholder involvement."
+    ]
+  },
+  {
+    "keyword": "Project Plan",
+    "response": [
+      "A structured document outlining project execution.",
+      "Includes scope, schedule, resources, and risks.",
+      "Guides project team in achieving objectives.",
+      "Helps in tracking progress and making adjustments.",
+      "Essential for project success and stakeholder alignment."
+    ]
+  },
+  {
+    "keyword": "Team Leader",
+    "response": [
+      "Responsible for guiding and managing the project team.",
+      "Ensures tasks are completed on time and within scope.",
+      "Facilitates communication and conflict resolution.",
+      "Motivates team members for better productivity.",
+      "Acts as a bridge between the team and stakeholders."
+    ]
+  },
+  {
+    "keyword": "Team",
+    "response": [
+      "A group of individuals working together on a project.",
+      "Includes members with different roles and responsibilities.",
+      "Collaborates to achieve project goals efficiently.",
+      "Requires effective communication and coordination.",
+      "Success depends on teamwork, skills, and leadership."
+    ]
+  },
+  {
+    "keyword": "Project Schedule",
+    "response": [
+      "A timeline defining the start and end of project tasks.",
+      "Helps in tracking progress and managing deadlines.",
+      "Includes task dependencies, milestones, and critical paths.",
+      "Can be represented using Gantt charts or network diagrams.",
+      "Ensures timely project completion and resource efficiency."
+    ]
+  },
+  {
+    "keyword": "Activities",
+    "response": [
+      "Tasks or steps required to complete a project.",
+      "Can be sequential or parallel based on dependencies.",
+      "Defined based on project objectives and deliverables.",
+      "Help in estimating time and resource requirements.",
+      "Monitored to ensure project stays on track."
+    ]
+  },
+  {
+    "keyword": "The Activity-Based Approach",
+    "response": [
+      "Breaks down a project into specific tasks.",
+      "Focuses on work processes and operational steps.",
+      "Ensures all necessary activities are accounted for.",
+      "Used in traditional project management methodologies.",
+      "Helps in estimating time and resources accurately."
+    ]
+  },
+  {
+    "keyword": "Identifying Critical Path",
+    "response": [
+      "Involves determining the longest sequence of dependent tasks.",
+      "Critical tasks have zero slack time.",
+      "Delays in critical path tasks impact project completion.",
+      "Uses techniques like CPM for identification.",
+      "Helps in optimizing scheduling and resource allocation."
+    ]
+  },
+  {
+    "keyword": "Activity Float",
+    "response": [
+      "The amount of time an activity can be delayed without affecting project completion.",
+      "Total float applies to the entire project schedule.",
+      "Free float applies to individual task delays.",
+      "Helps in resource leveling and project flexibility.",
+      "Activities on the critical path have zero float."
+    ]
+  },
+  {
+    "keyword": "Remedies of Critical Path",
+    "response": [
+      "Reallocate resources to critical tasks.",
+      "Use fast-tracking to overlap activities.",
+      "Apply crashing by adding more resources.",
+      "Reduce dependencies to shorten task durations.",
+      "Continuously monitor and update schedules."
+    ]
+  },
+  {
+    "keyword": "Shortening the Project Duration",
+    "response": [
+      "Use fast-tracking to execute tasks in parallel.",
+      "Apply crashing by increasing workforce or resources.",
+      "Optimize task dependencies and scheduling.",
+      "Reduce project scope if feasible.",
+      "Improve efficiency through automation and better planning."
+    ]
+  },
+  {
+    "keyword": "Identifying Critical Activities",
+    "response": [
+      "Analyze dependencies between project tasks.",
+      "Determine tasks with zero slack time.",
+      "Use CPM or PERT techniques for identification.",
+      "Focus on tasks that impact project completion time.",
+      "Prioritize these activities for risk management."
+    ]
+  },
+  {
+    "keyword": "Activity Relationships",
+    "response": [
+      "Define dependencies between tasks in a project.",
+      "Establish how tasks are linked to each other.",
+      "Key types include Finish-to-Start, Start-to-Start, etc.",
+      "Help in sequencing and scheduling project activities.",
+      "Essential for accurate project planning and tracking."
+    ]
+  },
+  {
+    "keyword": "Finish-to-Start (FS)",
+    "response": [
+      "A task cannot start until the previous one finishes.",
+      "Most common type of task dependency.",
+      "Ensures logical sequencing of tasks.",
+      "Used in traditional and modern project management.",
+      "Example: A foundation must be built before walls can be erected."
+    ]
+  },
+  {
+    "keyword": "Finish-to-Finish (FF)",
+    "response": [
+      "A task cannot finish until the previous one finishes.",
+      "Both tasks must be completed at the same time.",
+      "Ensures parallel progress between dependent tasks.",
+      "Used in projects with synchronized activities.",
+      "Example: Editing cannot finish until writing is completed."
+    ]
+  },
+  {
+    "keyword": "Start-to-Start (SS)",
+    "response": [
+      "A task cannot start until the previous one starts.",
+      "Both tasks begin simultaneously or with some delay.",
+      "Ensures parallel execution of tasks.",
+      "Helps in improving project efficiency.",
+      "Example: Concrete pouring starts when formwork setup begins."
+    ]
+  },
+  {
+    "keyword": "Start-to-Finish (SF)",
+    "response": [
+      "A task cannot finish until the previous one starts.",
+      "Less commonly used in project scheduling.",
+      "Used in scenarios where a new process replaces an old one.",
+      "Helps in transition planning for operational continuity.",
+      "Example: A new security system must be activated before the old one is deactivated."
+    ]
+  },
+  {
+    "keyword": "The Forward Pass",
+    "response": [
+      "Calculates the earliest start and finish times for activities.",
+      "Moves from project start to end through the network diagram.",
+      "Determines the project’s earliest possible completion date.",
+      "Helps in identifying critical path activities.",
+      "Used for time scheduling and resource planning."
+    ]
+  },
+  {
+    "keyword": "The Backward Pass",
+    "response": [
+      "Calculates the latest start and finish times for activities.",
+      "Moves from project end to start through the network diagram.",
+      "Determines slack time for non-critical activities.",
+      "Helps in optimizing resource allocation and scheduling.",
+      "Used for managing project delays and flexibility."
+    ]
+  },
+  {
+    "keyword": "Project Tracking and Control",
+    "response": [
+      "Monitors project progress against planned objectives.",
+      "Uses key performance indicators (KPIs) to track performance.",
+      "Identifies deviations and applies corrective actions.",
+      "Ensures timely completion within scope and budget.",
+      "Uses tools like Gantt charts, dashboards, and status reports."
+    ]
+  },
+  {
+    "keyword": "Creating Framework",
+    "response": [
+      "Defines the structure and guidelines for project execution.",
+      "Includes methodologies, tools, and processes.",
+      "Ensures consistency and efficiency in project management.",
+      "Provides a roadmap for project success.",
+      "Adapts to project-specific needs and constraints."
+    ]
+  },
+  {
+    "keyword": "Project Management Plan",
+    "response": [
+      "A formal document outlining project execution and control.",
+      "Includes scope, schedule, cost, risk, and communication plans.",
+      "Serves as a reference for stakeholders and team members.",
+      "Ensures alignment with project objectives and constraints.",
+      "Updated throughout the project lifecycle."
+    ]
+  },
+  {
+    "keyword": "Work Performance Information",
+    "response": [
+      "Includes data on project progress and performance metrics.",
+      "Derived from project tracking tools and reports.",
+      "Helps in decision-making and corrective actions.",
+      "Covers scope, schedule, cost, and quality status.",
+      "Used for performance evaluations and forecasting."
+    ]
+  },
+  {
+    "keyword": "Rejected Change Requests",
+    "response": [
+      "Change requests that are not approved for implementation.",
+      "Rejected due to feasibility, cost, or project scope impact.",
+      "Documented in change management records.",
+      "Ensures project stability by avoiding unnecessary changes.",
+      "Reviewed periodically for reconsideration if needed."
+    ]
+  },
+  {
+    "keyword": "Expert Judgment",
+    "response": [
+      "Involves decision-making by experienced professionals.",
+      "Used in risk management, scheduling, and cost estimation.",
+      "Enhances accuracy and reliability in project planning.",
+      "Relies on industry best practices and past experiences.",
+      "Applied in all phases of project management."
+    ]
+  },
+  {
+    "keyword": "Earned Value Technique (EVT)",
+    "response": [
+      "Measures project performance using cost and schedule metrics.",
+      "Includes Earned Value (EV), Planned Value (PV), and Actual Cost (AC).",
+      "Calculates Cost Performance Index (CPI) and Schedule Performance Index (SPI).",
+      "Helps in forecasting project completion and budget estimates.",
+      "Used for objective project tracking and reporting."
+    ]
+  },
+  {
+    "keyword": "Organizational Project Management",
+    "response": [
+      "Aligns projects with business strategy and objectives.",
+      "Ensures efficient use of resources across projects.",
+      "Includes program and portfolio management.",
+      "Standardizes processes for consistency and effectiveness.",
+      "Improves decision-making at an organizational level."
+    ]
+  },
+  {
+    "keyword": "Project Management Information System",
+    "response": [
+      "A software tool for managing project data and workflows.",
+      "Includes modules for scheduling, budgeting, and reporting.",
+      "Supports collaboration among project stakeholders.",
+      "Improves decision-making with real-time data access.",
+      "Examples include Microsoft Project and Primavera."
+    ]
+  },
+  {
+    "keyword": "Collection of Project Data",
+    "response": [
+      "Gathers information related to project progress and performance.",
+      "Includes cost, time, resource usage, and risks.",
+      "Essential for tracking project health and making decisions.",
+      "Can be automated using project management software.",
+      "Used for documentation, reporting, and audits."
+    ]
+  },
+  {
+    "keyword": "Management",
+    "response": [
+      "Involves planning, organizing, and overseeing project activities.",
+      "Ensures project goals are met efficiently.",
+      "Includes resource allocation and stakeholder communication.",
+      "Focuses on risk management and quality assurance.",
+      "Crucial for project success and sustainability."
+    ]
+  },
+  {
+    "keyword": "Programmers",
+    "response": [
+      "Develop and implement software solutions.",
+      "Convert project requirements into working code.",
+      "Collaborate with testers and designers for integration.",
+      "Fix bugs and optimize performance.",
+      "Use programming languages and development frameworks."
+    ]
+  },
+  {
+    "keyword": "Tester",
+    "response": [
+      "Ensures software quality by identifying and fixing defects.",
+      "Performs manual and automated testing.",
+      "Validates functionality, performance, and security.",
+      "Reports bugs to developers for resolution.",
+      "Uses testing tools like Selenium, JUnit, and LoadRunner."
+    ]
+  },
+  {
+    "keyword": "End Users",
+    "response": [
+      "Final consumers of the project deliverables.",
+      "Provide feedback on usability and functionality.",
+      "Help in validating project success criteria.",
+      "Influence project requirements and improvements.",
+      "Play a key role in user acceptance testing (UAT)."
+    ]
+  },
+  {
+    "keyword": "Bugs",
+    "response": [
+      "Errors or defects in software affecting functionality.",
+      "Identified through testing and user feedback.",
+      "Can cause crashes, incorrect outputs, or security risks.",
+      "Fixed through debugging and code modifications.",
+      "Tracked using bug tracking tools like JIRA and Bugzilla."
+    ]
+  },
+  {
+    "keyword": "Budgets",
+    "response": [
+      "Financial allocation for project resources and activities.",
+      "Includes costs for labor, materials, and tools.",
+      "Ensures project stays within financial constraints.",
+      "Tracked using budgeting tools like Excel and MS Project.",
+      "Reviewed periodically to manage cost overruns."
+    ]
+  },
+  {
+    "keyword": "Data Collection Methods",
+    "response": [
+      "Includes surveys, interviews, observations, and experiments.",
+      "Helps gather information for research and decision-making.",
+      "Can be qualitative (opinions, behaviors) or quantitative (numbers, statistics).",
+      "Ensures data accuracy through proper sampling and recording techniques.",
+      "Used in project management, market research, and academic studies."
+    ]
+  },
+  {
+    "keyword": "Type of Tools",
+    "response": [
+      "Includes software, frameworks, and physical instruments.",
+      "Used for data collection, analysis, and visualization.",
+      "Examples: surveys (Google Forms), statistical tools (SPSS, Excel).",
+      "Enhances efficiency and accuracy in data gathering.",
+      "Chosen based on project requirements and complexity."
+    ]
+  },
+  {
+    "keyword": "Schedule of Observations",
+    "response": [
+      "A structured plan for recording observations systematically.",
+      "Defines time, location, and conditions for data collection.",
+      "Used in research, project tracking, and quality control.",
+      "Ensures consistency and reliability in recorded data.",
+      "Can be manual (notebooks) or digital (sensors, cameras)."
+    ]
+  },
+  {
+    "keyword": "Guide to Interviewing",
+    "response": [
+      "Provides guidelines for conducting structured interviews.",
+      "Includes question formulation, sequencing, and tone.",
+      "Ensures clear, unbiased, and effective communication.",
+      "Used for qualitative data collection in research and hiring.",
+      "Improves consistency and reliability in gathered responses."
+    ]
+  },
+  {
+    "keyword": "Schedule of Interviews and Questionnaire Sent by Mail",
+    "response": [
+      "Defines timelines and process for conducting interviews and sending questionnaires.",
+      "Ensures timely responses and structured data collection.",
+      "Used in surveys, research, and recruitment processes.",
+      "Reduces delays and improves data reliability.",
+      "Helps in planning follow-ups for missing responses."
+    ]
+  },
+  {
+    "keyword": "Scale of Evaluation",
+    "response": [
+      "Defines criteria for assessing performance or quality.",
+      "Common types: Likert scale, rating scale, and percentage-based scoring.",
+      "Ensures standardization in assessments.",
+      "Used in employee performance reviews, research, and quality control.",
+      "Enhances objectivity and comparability of results."
+    ]
+  },
+  {
+    "keyword": "Checklist",
+    "response": [
+      "A structured list of tasks or requirements to be verified.",
+      "Ensures completeness and accuracy in execution.",
+      "Used in project management, safety inspections, and quality control.",
+      "Reduces errors by providing a step-by-step process.",
+      "Can be digital (Trello, Asana) or paper-based."
+    ]
+  },
+  {
+    "keyword": "Institutional Calendar",
+    "response": [
+      "Outlines important dates and deadlines for an institution.",
+      "Includes academic schedules, meetings, and project timelines.",
+      "Helps in resource planning and time management.",
+      "Ensures smooth coordination of institutional activities.",
+      "Used by schools, universities, and organizations."
+    ]
+  },
+  {
+    "keyword": "Construction of Schedules and Questionnaires",
+    "response": [
+      "Involves designing structured formats for data collection.",
+      "Ensures clarity, relevance, and ease of understanding.",
+      "Schedules define time-bound activities, while questionnaires gather information.",
+      "Follows a systematic process for accuracy and reliability.",
+      "Used in research, project management, and evaluations."
+    ]
+  },
+  {
+    "keyword": "Questionnaire vs. Schedule",
+    "response": [
+      "A questionnaire is a set of written questions for data collection.",
+      "A schedule is a structured plan for conducting observations or interviews.",
+      "Questionnaires are self-administered, while schedules involve direct interaction.",
+      "Both are used in surveys, research, and project tracking.",
+      "Selection depends on data type, context, and accessibility."
+    ]
+  },
+  {
+    "keyword": "The Construction Process",
+    "response": [
+      "Defines steps for building structures, systems, or frameworks.",
+      "Includes planning, design, execution, and evaluation.",
+      "Requires collaboration between teams and stakeholders.",
+      "Ensures compliance with standards and regulations.",
+      "Uses tools like Gantt charts and project management software."
+    ]
+  },
+  {
+    "keyword": "Pilot Study",
+    "response": [
+      "A small-scale trial before the main research or project.",
+      "Identifies potential issues and areas for improvement.",
+      "Ensures validity and reliability of research instruments.",
+      "Reduces risks and refines data collection methods.",
+      "Used in academic research, product testing, and surveys."
+    ]
+  },
+  {
+    "keyword": "Measurement Scale and Indices",
+    "response": [
+      "Defines how variables are measured in research and analysis.",
+      "Common types: Nominal, Ordinal, Interval, and Ratio scales.",
+      "Indices combine multiple indicators into a single measure.",
+      "Used in statistics, economics, and social sciences.",
+      "Ensures consistency and comparability of data."
+    ]
+  },
+  {
+    "keyword": "Preliminary Trials",
+    "response": [
+      "Initial tests conducted before full-scale implementation.",
+      "Helps identify errors, inefficiencies, and areas for improvement.",
+      "Ensures feasibility and effectiveness of a plan or product.",
+      "Used in software testing, research, and project development.",
+      "Saves time and resources by preventing large-scale failures."
+    ]
+  },
+  {
+    "keyword": "Visualizing Progress",
+    "response": [
+      "Represents project or data progress using visual tools.",
+      "Common methods: Gantt charts, bar graphs, and dashboards.",
+      "Enhances understanding and decision-making.",
+      "Used in project tracking, research, and performance monitoring.",
+      "Improves communication among stakeholders."
+    ]
+  },
+  {
+    "keyword": "Slip Chart",
+    "response": [
+      "Tracks project delays and timeline deviations.",
+      "Displays planned vs. actual progress.",
+      "Used in project management for schedule tracking.",
+      "Helps identify delays and corrective actions.",
+      "A visual tool for monitoring project performance."
+    ]
+  },
+  {
+    "keyword": "Time Line",
+    "response": [
+      "A visual representation of events in chronological order.",
+      "Used in project management, history, and planning.",
+      "Helps track milestones and deadlines effectively.",
+      "Improves clarity and communication of schedules.",
+      "Can be created using tools like MS Project, Trello, and Gantt charts."
+    ]
+  },
+  {
+    "keyword": "Cost Monitoring",
+    "response": [
+      "Tracks project expenses to stay within budget.",
+      "Compares actual costs with planned costs.",
+      "Identifies cost overruns and areas for savings.",
+      "Uses tools like cost reports and financial dashboards.",
+      "Ensures efficient resource allocation and financial control."
+    ]
+  },
+  {
+    "keyword": "Budgeting for the Project",
+    "response": [
+      "Allocates financial resources for project tasks.",
+      "Includes cost estimation, approval, and tracking.",
+      "Ensures project completion within financial limits.",
+      "Uses techniques like bottom-up and top-down estimation.",
+      "Helps in decision-making and cost control."
+    ]
+  },
+  {
+    "keyword": "Time Management Effortlessly",
+    "response": [
+      "Uses scheduling tools to optimize task completion.",
+      "Prioritizes tasks based on urgency and impact.",
+      "Minimizes delays with effective planning and monitoring.",
+      "Utilizes techniques like time-blocking and Gantt charts.",
+      "Improves productivity and project efficiency."
+    ]
+  },
+  {
+    "keyword": "Project Change Management",
+    "response": [
+      "Manages modifications to project scope, schedule, or budget.",
+      "Ensures changes are evaluated and approved systematically.",
+      "Reduces risks by documenting and controlling changes.",
+      "Uses a structured change request process.",
+      "Maintains project alignment with objectives."
+    ]
+  },
+  {
+    "keyword": "Earned Value Applicability",
+    "response": [
+      "Measures project performance using cost and schedule data.",
+      "Combines scope, schedule, and cost factors.",
+      "Identifies deviations from planned progress.",
+      "Enhances forecasting and decision-making.",
+      "Ensures project efficiency and financial health."
+    ]
+  },
+  {
+    "keyword": "Earned Value Analysis",
+    "response": [
+      "Evaluates project performance using key metrics.",
+      "Compares planned vs. actual progress and costs.",
+      "Includes Earned Value (EV), Planned Value (PV), and Actual Cost (AC).",
+      "Helps in cost forecasting and risk mitigation.",
+      "Supports effective project tracking and control."
+    ]
+  },
+  {
+    "keyword": "Earned Value",
+    "response": [
+      "Represents the value of completed work.",
+      "Calculated as EV = % of work completed × Budget at Completion (BAC).",
+      "Indicates project progress against budgeted costs.",
+      "Helps assess cost and schedule efficiency.",
+      "Used in Earned Value Management (EVM) analysis."
+    ]
+  },
+  {
+    "keyword": "Planned Value",
+    "response": [
+      "Represents the expected budgeted cost of scheduled work.",
+      "Calculated as PV = % of planned work × Budget at Completion (BAC).",
+      "Helps compare planned vs. actual progress.",
+      "Identifies schedule deviations early.",
+      "Used in Earned Value Management (EVM)."
+    ]
+  },
+  {
+    "keyword": "Actual Cost",
+    "response": [
+      "Represents the total cost incurred for completed work.",
+      "Includes direct and indirect project expenses.",
+      "Compared against Earned Value (EV) to assess cost performance.",
+      "Used in Earned Value Management (EVM).",
+      "Helps identify cost overruns and inefficiencies."
+    ]
+  },
+  {
+    "keyword": "Budget at Completion",
+    "response": [
+      "Represents the total planned cost for project completion.",
+      "Used as a baseline for cost tracking and forecasting.",
+      "Compared with actual costs to assess financial performance.",
+      "Helps in risk mitigation and budget adjustments.",
+      "A key metric in Earned Value Management (EVM)."
+    ]
+  },
+  {
+    "keyword": "Project Tracking",
+    "response": [
+      "Monitors project progress against plans.",
+      "Uses tools like Gantt charts and dashboards.",
+      "Identifies delays and deviations early.",
+      "Ensures timely corrective actions.",
+      "Improves project transparency and efficiency."
+    ]
+  },
+  {
+    "keyword": "Types of Project Status Reports",
+    "response": [
+      "Includes progress, variance, and risk reports.",
+      "Summarizes schedule, cost, and performance metrics.",
+      "Helps stakeholders assess project health.",
+      "Can be daily, weekly, or milestone-based.",
+      "Uses formats like charts, tables, and executive summaries."
+    ]
+  },
+  {
+    "keyword": "How and What Information to Update",
+    "response": [
+      "Regularly updates cost, schedule, and task completion status.",
+      "Ensures accuracy by verifying data sources.",
+      "Uses project management tools for real-time updates.",
+      "Communicates changes to stakeholders clearly.",
+      "Maintains transparency and project alignment."
+    ]
+  },
+  {
+    "keyword": "Variances",
+    "response": [
+      "Represents differences between planned and actual values.",
+      "Includes cost, schedule, and performance variances.",
+      "Positive variance indicates efficiency; negative shows issues.",
+      "Used in Earned Value Management (EVM).",
+      "Helps in decision-making and corrective actions."
+    ]
+  },
+  {
+    "keyword": "Positive Variances",
+    "response": [
+      "Indicates project performance is ahead of schedule or under budget.",
+      "Shows higher efficiency and resource optimization.",
+      "Leads to cost savings and faster completion.",
+      "Can be reinvested in project enhancements.",
+      "Helps maintain stakeholder confidence."
+    ]
+  },
+  {
+    "keyword": "Negative Variances",
+    "response": [
+      "Indicates delays, cost overruns, or inefficiencies.",
+      "Requires corrective actions to realign the project.",
+      "Identifies issues in budget, schedule, or scope.",
+      "Impacts project profitability and deadlines.",
+      "Managed using risk mitigation strategies."
+    ]
+  },
+  {
+    "keyword": "Change Control",
+    "response": [
+      "A structured process for managing project changes.",
+      "Ensures all changes are reviewed and approved.",
+      "Minimizes project disruptions and risks.",
+      "Documents impact on budget, schedule, and scope.",
+      "Enhances project stability and accountability."
+    ]
+  },
+  {
+    "keyword": "Change Control Activities",
+    "response": [
+      "Includes change request submission and review.",
+      "Assesses impact on project scope and budget.",
+      "Approval or rejection by project stakeholders.",
+      "Updates documentation and communicates changes.",
+      "Ensures controlled implementation of modifications."
+    ]
+  },
+  {
+    "keyword": "Usage of Metadata",
+    "response": [
+      "Metadata describes project-related data properties.",
+      "Used for categorization, retrieval, and analysis.",
+      "Enhances data organization and decision-making.",
+      "Improves traceability and version control.",
+      "Common in databases, documentation, and software management."
+    ]
+  },
+  {
+    "keyword": "Software Configuration Management",
+    "response": [
+      "Manages changes in software development projects.",
+      "Tracks versions, updates, and modifications.",
+      "Ensures consistency across software builds.",
+      "Uses tools like Git, SVN, and Jenkins.",
+      "Reduces risks of code conflicts and data loss."
+    ]
+  },
+  {
+    "keyword": "Open Source Configuration Tools",
+    "response": [
+      "Includes Git, Subversion (SVN), and Mercurial.",
+      "Used for version control and collaboration.",
+      "Enables efficient software configuration management.",
+      "Helps track changes and rollback versions.",
+      "Improves software development workflow."
+    ]
+  },
+  {
+    "keyword": "Managing Contracts",
+    "response": [
+      "Involves overseeing agreements between parties.",
+      "Ensures compliance with terms, conditions, and deliverables.",
+      "Reduces risks and prevents legal disputes.",
+      "Includes contract negotiation, execution, and monitoring.",
+      "Essential for project success and vendor relationships."
+    ]
+  },
+  {
+    "keyword": "Types of Contract",
+    "response": [
+      "Contracts define terms of engagement between parties.",
+      "Common types: Fixed price, Time & Materials, and Cost-reimbursable.",
+      "Each type varies in risk allocation and payment structure.",
+      "Used based on project scope, complexity, and budget.",
+      "Proper selection ensures efficiency and cost control."
+    ]
+  },
+  {
+    "keyword": "Fixed Price Contracts",
+    "response": [
+      "Agreed-upon price remains constant regardless of cost changes.",
+      "Best suited for well-defined project scopes.",
+      "Minimizes buyer risk but increases vendor responsibility.",
+      "Common in government and large-scale projects.",
+      "Variations include firm-fixed-price and incentive-based contracts."
+    ]
+  },
+  {
+    "keyword": "Time and Materials Contracts",
+    "response": [
+      "Payment is based on actual labor hours and material costs.",
+      "Flexible but requires strict monitoring to avoid cost overruns.",
+      "Suitable for projects with evolving scopes.",
+      "Common in consulting and software development projects.",
+      "Balances risk between buyer and contractor."
+    ]
+  },
+  {
+    "keyword": "Fixed Price Per Delivered Unit",
+    "response": [
+      "Payment is based on the number of completed units.",
+      "Used when deliverables are clearly measurable.",
+      "Reduces financial risk for buyers.",
+      "Common in manufacturing and outsourced services.",
+      "Encourages efficient work delivery."
+    ]
+  },
+  {
+    "keyword": "Contract Management",
+    "response": [
+      "Process of handling contracts efficiently from creation to execution.",
+      "Ensures compliance, minimizes risks, and optimizes performance.",
+      "Includes contract drafting, approval, execution, and renewal.",
+      "Uses tools like contract management software.",
+      "Enhances vendor relationships and legal protection."
+    ]
+  },
+  {
+    "keyword": "The Stages of Contract Management",
+    "response": [
+      "Includes contract creation, negotiation, approval, and execution.",
+      "Monitoring performance to ensure compliance.",
+      "Handling modifications and risk management.",
+      "Renewing or closing contracts upon completion.",
+      "Requires proper documentation and tracking."
+    ]
+  },
+  {
+    "keyword": "Contract Management Challenges",
+    "response": [
+      "Lack of clear terms can lead to disputes.",
+      "Tracking multiple contracts manually is inefficient.",
+      "Ensuring compliance with legal and regulatory requirements.",
+      "Handling contract amendments and modifications effectively.",
+      "Using digital tools can improve efficiency and reduce errors."
+    ]
+  },
+  {
+    "keyword": "Building Relationships",
+    "response": [
+      "Strong vendor relationships improve project success.",
+      "Requires clear communication and trust.",
+      "Regular feedback helps maintain transparency.",
+      "Long-term partnerships reduce contract risks.",
+      "Effective collaboration ensures mutual benefits."
+    ]
+  },
+  {
+    "keyword": "Invitation to Tender",
+    "response": [
+      "A formal request for bids from potential vendors.",
+      "Used in procurement to ensure competitive pricing.",
+      "Specifies project requirements and expectations.",
+      "Evaluates supplier capabilities and cost-effectiveness.",
+      "Helps in selecting the best contractor for a project."
+    ]
+  },
+  {
+    "keyword": "Agile Project Management",
+    "response": [
+      "Agile Project Management focuses on iterative and flexible development.",
+      "Encourages collaboration and adaptability to changes.",
+      "Uses short development cycles (sprints) to deliver work incrementally.",
+      "Enhances project visibility through continuous feedback.",
+      "Common frameworks include Scrum and Kanban."
+    ]
+  },
+  {
+    "keyword": "Agile Process",
+    "response": [
+      "Follows iterative cycles to develop software in small increments.",
+      "Starts with planning, followed by design, development, and testing.",
+      "Includes continuous integration and customer feedback.",
+      "Encourages adaptive planning and evolutionary development.",
+      "Promotes collaboration among cross-functional teams."
+    ]
+  },
+  {
+    "keyword": "Sprints",
+    "response": [
+      "Short development cycles in Agile, typically lasting 1-4 weeks.",
+      "Focus on delivering a working product increment.",
+      "Includes planning, execution, review, and retrospective phases.",
+      "Helps teams stay focused and maintain steady progress.",
+      "Each sprint ends with a review to assess improvements."
+    ]
+  },
+  {
+    "keyword": "Scope of Agile Project Management",
+    "response": [
+      "Applicable to software development and various industries.",
+      "Ensures continuous product evolution with iterative cycles.",
+      "Balances flexibility with structured planning.",
+      "Focuses on customer collaboration and feedback.",
+      "Adapts to changing project requirements efficiently."
+    ]
+  },
+  {
+    "keyword": "Agile Project Manager Responsibilities",
+    "response": [
+      "Facilitates Agile adoption within teams.",
+      "Removes obstacles to ensure smooth workflows.",
+      "Encourages collaboration between stakeholders and teams.",
+      "Ensures project goals align with Agile principles.",
+      "Monitors progress and fosters continuous improvement."
+    ]
+  },
+  {
+    "keyword": "Agile Project Manager",
+    "response": [
+      "Leads Agile teams by implementing Agile best practices.",
+      "Acts as a bridge between stakeholders and developers.",
+      "Encourages flexibility and responsiveness to change.",
+      "Focuses on team motivation and self-organization.",
+      "Ensures timely delivery of product increments."
+    ]
+  },
+  {
+    "keyword": "Agile Software Development",
+    "response": [
+      "An iterative approach to software development.",
+      "Prioritizes working software over extensive documentation.",
+      "Encourages collaboration with stakeholders.",
+      "Adapts to changing requirements quickly.",
+      "Uses frameworks like Scrum and Kanban."
     ]
   },
   {
     "keyword": "Agile Methodology",
     "response": [
-      "Agile promotes iterative and incremental development.",
-      "Uses sprints (short development cycles) to deliver features quickly.",
+      "A set of principles guiding iterative and flexible project execution.",
+      "Promotes continuous improvement and rapid delivery.",
       "Focuses on collaboration between teams and customers.",
-      "Popular Agile frameworks include Scrum and Kanban.",
-      "Reduces risks by allowing continuous feedback and improvements."
+      "Emphasizes adaptability to evolving requirements.",
+      "Commonly used in software and product development."
     ]
   },
   {
-    "keyword": "Risk Management in SPM",
+    "keyword": "Agile Manifesto",
     "response": [
-      "Risk management identifies and mitigates project risks.",
-      "Includes risk identification, assessment, and response planning.",
-      "Common risks: scope creep, budget overruns, and technical failures.",
-      "Strategies: Avoid, Transfer, Mitigate, or Accept risks.",
-      "Continuous monitoring ensures project success."
+      "A set of 4 values and 12 principles for Agile development.",
+      "Values individuals and interactions over processes and tools.",
+      "Prioritizes working software over documentation.",
+      "Encourages customer collaboration over contract negotiation.",
+      "Responds to change rather than following a fixed plan."
+    ]
+  },
+  {
+    "keyword": "Advantages of Agile Methodology",
+    "response": [
+      "Enhances flexibility and adaptability to changes.",
+      "Improves collaboration and stakeholder engagement.",
+      "Delivers working software faster with iterative releases.",
+      "Reduces project risks through continuous feedback.",
+      "Encourages team productivity and transparency."
+    ]
+  },
+  {
+    "keyword": "Speed to Market",
+    "response": [
+      "Agile enables faster delivery of software products.",
+      "Minimizes time spent on upfront planning.",
+      "Allows early feedback to refine product features.",
+      "Ensures quick adjustments to market demands.",
+      "Competitive advantage by delivering value quickly."
+    ]
+  },
+  {
+    "keyword": "Criticism of Agile Methodology",
+    "response": [
+      "Lack of detailed documentation can cause issues.",
+      "Frequent changes may lead to scope creep.",
+      "Requires a high level of collaboration and communication.",
+      "Not always suitable for large, complex projects.",
+      "Difficult to estimate project timelines and costs accurately."
+    ]
+  },
+  {
+    "keyword": "Scrum",
+    "response": [
+      "A popular Agile framework focused on iterative development.",
+      "Divides work into sprints with fixed timeframes.",
+      "Uses Scrum roles: Product Owner, Scrum Master, and Development Team.",
+      "Includes ceremonies like Daily Scrum and Sprint Planning.",
+      "Emphasizes transparency, inspection, and adaptation."
+    ]
+  },
+  {
+    "keyword": "Scrum Team",
+    "response": [
+      "Consists of a Product Owner, Scrum Master, and Developers.",
+      "Self-organizing and cross-functional team structure.",
+      "Collaborates to deliver product increments.",
+      "Works in sprints to achieve project goals.",
+      "Follows Agile principles for continuous improvement."
+    ]
+  },
+  {
+    "keyword": "Product Owner",
+    "response": [
+      "Defines product vision and prioritizes the backlog.",
+      "Acts as a bridge between stakeholders and the development team.",
+      "Ensures the team builds high-value features first.",
+      "Continuously refines backlog items based on feedback.",
+      "Maximizes product value through effective decision-making."
+    ]
+  },
+  {
+    "keyword": "Scrum Master",
+    "response": [
+      "Facilitates Scrum processes and removes team impediments.",
+      "Ensures adherence to Agile principles.",
+      "Coaches the team to improve efficiency and self-organization.",
+      "Organizes Scrum ceremonies like Daily Standups and Sprint Reviews.",
+      "Acts as a servant leader, supporting team success."
+    ]
+  },
+  {
+    "keyword": "Product Backlog",
+    "response": [
+      "A prioritized list of features and requirements for development.",
+      "Managed by the Product Owner.",
+      "Items are refined and reprioritized regularly.",
+      "Ensures focus on high-value deliverables.",
+      "Forms the basis for sprint planning."
+    ]
+  },
+  {
+    "keyword": "Sprint Planning Meeting",
+    "response": [
+      "A meeting where the team selects work for the upcoming sprint.",
+      "Defines sprint goals and backlog items.",
+      "Breaks down tasks and estimates workload.",
+      "Ensures alignment between team and Product Owner.",
+      "Improves clarity and sets realistic expectations."
+    ]
+  },
+  {
+    "keyword": "Daily Scrum",
+    "response": [
+      "A short daily meeting for the Scrum team.",
+      "Team members share progress, plans, and blockers.",
+      "Encourages collaboration and quick problem-solving.",
+      "Lasts around 15 minutes and improves transparency.",
+      "Helps maintain sprint focus and accountability."
+    ]
+  },
+  {
+    "keyword": "Sprint Review Meeting",
+    "response": [
+      "Held at the end of each sprint to showcase completed work.",
+      "Stakeholders provide feedback on the delivered increment.",
+      "Helps refine the product backlog for future sprints.",
+      "Encourages continuous improvement and transparency.",
+      "Ensures alignment with customer expectations."
+    ]
+  },
+  {
+    "keyword": "Sprint Retrospective",
+    "response": [
+      "A meeting to reflect on the sprint process.",
+      "Identifies areas for improvement in teamwork and workflow.",
+      "Encourages open discussion on successes and challenges.",
+      "Results in actionable improvements for the next sprint.",
+      "Enhances team collaboration and efficiency."
+    ]
+  },
+  {
+    "keyword": "Predictive versus Empirical Management",
+    "response": [
+      "Predictive management follows a structured plan, while empirical management adapts based on experience.",
+      "Predictive relies on predefined processes, whereas empirical is iterative and flexible.",
+      "Empirical management is commonly used in Agile, while predictive is used in Waterfall.",
+      "Predictive focuses on upfront planning; empirical focuses on continuous learning.",
+      "Empirical methods use feedback loops for process improvement."
+    ]
+  },
+  {
+    "keyword": "Predictive Project",
+    "response": [
+      "A project where the scope, time, and cost are determined early.",
+      "Follows a structured, sequential approach like the Waterfall model.",
+      "Requires extensive upfront planning with minimal flexibility.",
+      "Best suited for projects with well-defined requirements.",
+      "Changes are difficult to accommodate once planning is complete."
+    ]
+  },
+  {
+    "keyword": "Predictive Management",
+    "response": [
+      "A management approach that relies on detailed upfront planning.",
+      "Assumes stability and minimal requirement changes.",
+      "Uses fixed schedules and budgets to track progress.",
+      "Commonly used in traditional project management frameworks.",
+      "Less adaptable to uncertainties compared to empirical management."
+    ]
+  },
+  {
+    "keyword": "Empirical Management",
+    "response": [
+      "Management approach based on experience, observation, and feedback.",
+      "Uses iterative cycles to refine plans dynamically.",
+      "Well-suited for complex and evolving projects.",
+      "Encourages experimentation and continuous improvement.",
+      "Used in Agile methodologies for adaptive decision-making."
+    ]
+  },
+  {
+    "keyword": "Empirical Process Control",
+    "response": [
+      "A process management approach based on inspection, adaptation, and transparency.",
+      "Relies on real-time data to make informed decisions.",
+      "Used in Agile development for iterative improvements.",
+      "Allows teams to adapt to changes quickly.",
+      "Encourages continuous feedback loops."
+    ]
+  },
+  {
+    "keyword": "Non-Agile and Agile Projects",
+    "response": [
+      "Non-Agile projects follow a linear approach, while Agile projects use iterations.",
+      "Agile projects focus on customer collaboration and adaptability.",
+      "Non-Agile methods rely on extensive upfront planning.",
+      "Agile projects use iterative feedback to refine deliverables.",
+      "Agile teams work in sprints, while Non-Agile projects follow fixed phases."
+    ]
+  },
+  {
+    "keyword": "Comparison between Non-Agile and Agile Project",
+    "response": [
+      "Non-Agile projects follow sequential steps, Agile projects iterate over cycles.",
+      "Agile accommodates changing requirements; Non-Agile does not.",
+      "Agile encourages collaboration, whereas Non-Agile follows a rigid hierarchy.",
+      "Non-Agile projects rely on extensive documentation, while Agile values working software.",
+      "Agile delivers incremental improvements, while Non-Agile waits for the final product."
+    ]
+  },
+  {
+    "keyword": "Traditional Vs Agile",
+    "response": [
+      "Traditional project management follows a fixed plan, Agile is adaptive.",
+      "Traditional uses phases like initiation, planning, execution, and closure.",
+      "Agile uses iterative cycles to continuously improve the product.",
+      "Traditional focuses on extensive documentation, Agile prioritizes working software.",
+      "Agile is better for dynamic environments, while Traditional suits stable projects."
+    ]
+  },
+  {
+    "keyword": "Waterfall Model",
+    "response": [
+      "A sequential software development model with distinct phases.",
+      "Includes phases: Requirement Analysis, Design, Implementation, Testing, Deployment, and Maintenance.",
+      "Progress flows in one direction like a waterfall.",
+      "Best suited for projects with clear, stable requirements.",
+      "Difficult to accommodate changes once a phase is completed."
+    ]
+  },
+  {
+    "keyword": "Agile vs Waterfall",
+    "response": [
+      "Waterfall follows a sequential approach; Agile is iterative.",
+      "Agile allows flexibility in changing requirements, Waterfall does not.",
+      "Waterfall requires extensive documentation, Agile focuses on collaboration.",
+      "Agile delivers working software in small increments, Waterfall delivers at the end.",
+      "Waterfall suits well-defined projects, Agile is better for evolving needs."
+    ]
+  },
+  {
+    "keyword": "Three Stages of Agile Project",
+    "response": [
+      "Initiation: Define project vision, backlog, and Agile framework.",
+      "Execution: Conduct sprints, daily stand-ups, and iterations.",
+      "Closure: Review deliverables, retrospective analysis, and deployment.",
+      "Each stage focuses on continuous feedback and improvement.",
+      "Ensures flexibility and adaptation throughout the project lifecycle."
+    ]
+  },
+  {
+    "keyword": "Team's Up-Skilling",
+    "response": [
+      "Training team members to enhance their Agile expertise.",
+      "Includes learning Agile methodologies like Scrum and Kanban.",
+      "Helps improve collaboration and problem-solving skills.",
+      "Encourages cross-functional abilities within the team.",
+      "Continuous learning ensures improved productivity and adaptability."
+    ]
+  },
+  {
+    "keyword": "Self-Sufficient Agile Team",
+    "response": [
+      "A team capable of delivering work without external dependencies.",
+      "Possesses cross-functional skills to handle all development aspects.",
+      "Encourages collaboration and shared responsibilities.",
+      "Minimizes bottlenecks and improves efficiency.",
+      "Promotes autonomy, accountability, and continuous learning."
+    ]
+  },
+  {
+    "keyword": "Estimation",
+    "response": [
+      "A process to predict effort, time, and cost for a project.",
+      "Common techniques include story points, T-shirt sizing, and planning poker.",
+      "Ensures realistic workload distribution and resource allocation.",
+      "Helps in setting achievable sprint goals.",
+      "Regular refinements improve estimation accuracy."
+    ]
+  },
+  {
+    "keyword": "Different Stages of Agile",
+    "response": [
+      "Concept: Define project vision and scope.",
+      "Inception: Form the team and establish workflows.",
+      "Iteration: Develop, test, and refine software in sprints.",
+      "Release: Deploy and gather user feedback.",
+      "Production & Retirement: Maintain and eventually phase out the product."
+    ]
+  },
+  {
+    "keyword": "Scope Management",
+    "response": [
+      "Defines project scope and objectives.",
+      "Ensures work aligns with business goals.",
+      "Prevents scope creep by managing change requests.",
+      "Uses backlog management in Agile projects.",
+      "Includes scope verification and control."
+    ]
+  },
+  {
+    "keyword": "Scheduling in Agile Projects",
+    "response": [
+      "Uses iterative planning with short sprints.",
+      "Focuses on delivering features incrementally.",
+      "Backlog items are prioritized for each sprint.",
+      "Flexible schedule adapts to changing requirements.",
+      "Uses burn-down charts and velocity tracking."
+    ]
+  },
+  {
+    "keyword": "Scheduling and Tracking",
+    "response": [
+      "Includes defining timelines and monitoring progress.",
+      "Uses tools like Gantt charts and Agile boards.",
+      "Tracks progress using velocity, burn-down, and burn-up charts.",
+      "Ensures timely completion of deliverables.",
+      "Regular stand-ups and reviews keep the team aligned."
+    ]
+  },
+  {
+    "keyword": "Staffing in Software Projects",
+    "response": [
+      "Staffing involves recruiting, selecting, and managing software development teams.",
+      "Ensures the right skill set is assigned to the right project tasks.",
+      "Includes training, mentoring, and performance evaluation.",
+      "Impacts project success by optimizing resource allocation.",
+      "Requires balancing workload, expertise, and team dynamics."
+    ]
+  },
+  {
+    "keyword": "Managing People",
+    "response": [
+      "Involves leadership, motivation, and communication skills.",
+      "Ensures team collaboration and conflict resolution.",
+      "Focuses on performance management and professional growth.",
+      "Requires adapting management style based on team needs.",
+      "Enhances productivity through proper delegation and empowerment."
+    ]
+  },
+  {
+    "keyword": "Organizational Behaviour",
+    "response": [
+      "Studies human behavior in a workplace setting.",
+      "Includes motivation, leadership, and team dynamics.",
+      "Helps managers improve work culture and efficiency.",
+      "Uses psychological principles to enhance productivity.",
+      "Influences decision-making and organizational structure."
+    ]
+  },
+  {
+    "keyword": "Project Manager",
+    "response": [
+      "Leads the project team and ensures project success.",
+      "Manages scope, schedule, budget, and risks.",
+      "Coordinates communication between stakeholders.",
+      "Responsible for decision-making and problem-solving.",
+      "Ensures project alignment with business goals."
+    ]
+  },
+  {
+    "keyword": "Roles of Manager",
+    "response": [
+      "Leader: Guides and motivates the team.",
+      "Planner: Defines project goals and timelines.",
+      "Communicator: Acts as a bridge between stakeholders.",
+      "Problem Solver: Resolves conflicts and obstacles.",
+      "Decision Maker: Allocates resources and prioritizes tasks."
+    ]
+  },
+  {
+    "keyword": "Understanding Behaviour",
+    "response": [
+      "Essential for managing teams effectively.",
+      "Includes studying personality, motivation, and emotions.",
+      "Helps improve team collaboration and morale.",
+      "Enables managers to address conflicts proactively.",
+      "Supports effective leadership and communication strategies."
+    ]
+  },
+  {
+    "keyword": "Positive Approach",
+    "response": [
+      "Encourages motivation and employee engagement.",
+      "Fosters a healthy and productive work environment.",
+      "Focuses on strengths rather than weaknesses.",
+      "Leads to higher job satisfaction and retention.",
+      "Improves overall team performance and morale."
+    ]
+  },
+  {
+    "keyword": "Importance of OB",
+    "response": [
+      "Enhances understanding of employee behavior.",
+      "Improves leadership and management effectiveness.",
+      "Strengthens workplace relationships and teamwork.",
+      "Helps in conflict resolution and motivation.",
+      "Contributes to organizational success and growth."
+    ]
+  },
+  {
+    "keyword": "Interpretivist Approach",
+    "response": [
+      "Focuses on understanding human behavior through experience.",
+      "Emphasizes qualitative research and subjective perspectives.",
+      "Opposes rigid structures and promotes flexibility.",
+      "Useful for studying culture, motivation, and leadership.",
+      "Aims to understand the ‘why’ behind workplace behaviors."
+    ]
+  },
+  {
+    "keyword": "Organizational Theories",
+    "response": [
+      "Explains how organizations function and evolve.",
+      "Includes classical, human relations, and contingency theories.",
+      "Helps managers structure and manage teams effectively.",
+      "Guides decision-making in complex work environments.",
+      "Influences leadership, motivation, and business strategy."
+    ]
+  },
+  {
+    "keyword": "McGregor’s Theory of X and Y",
+    "response": [
+      "Theory X assumes employees are lazy and need supervision.",
+      "Theory Y assumes employees are self-motivated and responsible.",
+      "Theory X leads to authoritative management style.",
+      "Theory Y promotes trust and employee empowerment.",
+      "Effective management balances both approaches."
+    ]
+  },
+  {
+    "keyword": "Z Theory",
+    "response": [
+      "Developed by William Ouchi as an extension of McGregor’s theories.",
+      "Focuses on long-term employment and job security.",
+      "Emphasizes trust, teamwork, and participative decision-making.",
+      "Encourages employee loyalty and a strong organizational culture.",
+      "Combines Japanese and Western management practices."
+    ]
+  },
+  {
+    "keyword": "Maslow’s Hierarchy of Needs",
+    "response": [
+      "A motivational theory consisting of five levels.",
+      "Physiological: Basic needs like food and shelter.",
+      "Safety: Job security and financial stability.",
+      "Social: Belongingness and teamwork.",
+      "Self-actualization: Achieving full potential in work."
+    ]
+  },
+  {
+    "keyword": "Best Methods of Staff Selection",
+    "response": [
+      "Clearly define job roles and required skills.",
+      "Use structured interviews to assess candidates.",
+      "Conduct technical and behavioral assessments.",
+      "Evaluate cultural fit within the organization.",
+      "Use reference checks for validation."
+    ]
+  },
+  {
+    "keyword": "General Approach for Recruitment Policy",
+    "response": [
+      "Identify talent requirements based on business needs.",
+      "Define clear job descriptions and candidate criteria.",
+      "Use multiple hiring channels for diverse talent sourcing.",
+      "Ensure fair and unbiased selection procedures.",
+      "Focus on employee retention and long-term engagement."
+    ]
+  },
+  {
+    "keyword": "Motivation",
+    "response": [
+      "Motivation is the driving force behind human actions and productivity.",
+      "Intrinsic motivation comes from personal satisfaction, while extrinsic motivation is driven by rewards.",
+      "Theories like Maslow’s and Herzberg’s explain motivation in the workplace.",
+      "Effective motivation improves job performance and employee satisfaction.",
+      "Leaders use various strategies like recognition, incentives, and goal setting to enhance motivation."
+    ]
+  },
+  {
+    "keyword": "Maslow’s Hierarchy of Needs",
+    "response": [
+      "A psychological theory that explains human motivation in five stages.",
+      "Basic needs: Physiological (food, water) and Safety (job security).",
+      "Psychological needs: Belongingness (teamwork) and Esteem (recognition).",
+      "Self-actualization: Achieving personal and professional growth.",
+      "Employees are more productive when higher needs are met."
+    ]
+  },
+  {
+    "keyword": "Herzberg’s Two-Factor Theory",
+    "response": [
+      "Divides motivation into Hygiene Factors and Motivators.",
+      "Hygiene Factors (salary, work conditions) prevent dissatisfaction.",
+      "Motivators (recognition, growth) drive job satisfaction.",
+      "Both factors must be balanced for an engaged workforce.",
+      "Used to improve employee retention and workplace culture."
+    ]
+  },
+  {
+    "keyword": "Oldham & Hackman Job Characteristic Model",
+    "response": [
+      "Defines how job design impacts employee motivation and performance.",
+      "Five core dimensions: Skill variety, Task identity, Task significance, Autonomy, and Feedback.",
+      "Higher job satisfaction leads to better work performance.",
+      "Autonomy and meaningful work increase engagement.",
+      "Effective for designing roles that enhance motivation."
+    ]
+  },
+  {
+    "keyword": "Stress",
+    "response": [
+      "Stress is a psychological and physical response to pressure.",
+      "Workplace stress affects productivity and employee health.",
+      "Common causes: Deadlines, workload, conflicts, job insecurity.",
+      "Managed through time management, breaks, and support systems.",
+      "Employers use wellness programs to reduce stress."
+    ]
+  },
+  {
+    "keyword": "Health and Safety",
+    "response": [
+      "Ensures a safe work environment for employees.",
+      "Includes ergonomic workplace design and hazard prevention.",
+      "Compliance with health regulations is essential.",
+      "Reduces work-related injuries and illnesses.",
+      "Promotes employee well-being and job satisfaction."
+    ]
+  },
+  {
+    "keyword": "Working in Teams",
+    "response": [
+      "Teamwork improves collaboration and problem-solving.",
+      "Requires effective communication and role clarity.",
+      "Diverse teams bring innovation and different perspectives.",
+      "Trust and mutual respect are key to team success.",
+      "Well-structured teams enhance project efficiency."
+    ]
+  },
+  {
+    "keyword": "The Five Stages of Team Development",
+    "response": [
+      "Forming: Team members get to know each other.",
+      "Storming: Conflicts arise as roles are defined.",
+      "Norming: Team establishes trust and cooperation.",
+      "Performing: Team works efficiently towards goals.",
+      "Adjourning: Project ends and team disbands."
+    ]
+  },
+  {
+    "keyword": "Balancing Team with Different Types of People",
+    "response": [
+      "Diverse teams offer a mix of skills and perspectives.",
+      "Balance technical and soft skills for better collaboration.",
+      "Encourage open communication and conflict resolution.",
+      "Assign roles based on strengths and expertise.",
+      "Use team-building exercises to improve cohesion."
+    ]
+  },
+  {
+    "keyword": "Decision Making",
+    "response": [
+      "Process of selecting the best course of action.",
+      "Can be structured (data-driven) or intuitive (experience-based).",
+      "Requires analyzing risks, benefits, and alternatives.",
+      "Good decision-making improves project success.",
+      "Collaboration enhances decision quality in teams."
+    ]
+  },
+  {
+    "keyword": "Group Decisions",
+    "response": [
+      "Involves collective input from team members.",
+      "Enhances creativity and reduces biases.",
+      "Consensus-based decisions improve acceptance.",
+      "Challenges include conflicts and slow decision-making.",
+      "Structured techniques like brainstorming help improve group decisions."
+    ]
+  },
+  {
+    "keyword": "Team Vigilance",
+    "response": [
+      "Ensures team members are actively engaged in tasks.",
+      "Helps in identifying risks and improving quality.",
+      "Prevents errors by maintaining continuous focus.",
+      "Encourages accountability and responsibility.",
+      "Improves efficiency in team-based projects."
+    ]
+  },
+  {
+    "keyword": "Egoless Programming",
+    "response": [
+      "Encourages collaboration and knowledge sharing in coding.",
+      "Developers focus on code quality rather than personal ownership.",
+      "Criticism is accepted constructively for better results.",
+      "Reduces errors and improves software maintainability.",
+      "Used in agile and open-source development."
+    ]
+  },
+  {
+    "keyword": "Chief Programmer Teams",
+    "response": [
+      "Team structure where a lead programmer oversees development.",
+      "Chief programmer makes key decisions and delegates tasks.",
+      "Ensures quality control and project coordination.",
+      "Effective for small teams with a clear hierarchy.",
+      "Used in traditional and structured development models."
+    ]
+  },
+  {
+    "keyword": "Extreme Programming",
+    "response": [
+      "An Agile software development methodology.",
+      "Emphasizes frequent releases and customer collaboration.",
+      "Includes pair programming and test-driven development.",
+      "Focuses on adaptability and continuous improvement.",
+      "Ensures software quality with iterative cycles."
+    ]
+  },
+  {
+    "keyword": "Organization and Team Structures",
+    "response": [
+      "Defines how teams are structured within an organization.",
+      "Includes hierarchical, matrix, and flat structures.",
+      "Affects workflow, decision-making, and communication.",
+      "Well-structured teams improve efficiency and clarity.",
+      "Tailored to project size and complexity."
+    ]
+  },
+  {
+    "keyword": "Departmental Organization",
+    "response": [
+      "Teams are grouped based on function (e.g., HR, Development).",
+      "Allows specialization and efficient resource management.",
+      "Improves communication within departments.",
+      "May create silos that reduce cross-team collaboration.",
+      "Common in large enterprises."
+    ]
+  },
+  {
+    "keyword": "Mixed-Team Organizations",
+    "response": [
+      "Combines specialists from different areas.",
+      "Balances expertise for complex projects.",
+      "Enhances knowledge sharing and innovation.",
+      "Requires strong coordination and leadership.",
+      "Effective for cross-functional projects."
+    ]
+  },
+  {
+    "keyword": "Virtual Teams",
+    "response": [
+      "Teams work remotely using digital tools.",
+      "Increases flexibility and global collaboration.",
+      "Requires strong communication and trust.",
+      "Challenges include time zones and cultural differences.",
+      "Uses tools like video conferencing and project management software."
+    ]
+  },
+  {
+    "keyword": "Socio-Economical Process",
+    "response": [
+      "Explores the relationship between business and society.",
+      "Includes economic, social, and ethical considerations.",
+      "Affects project funding, market trends, and workforce policies.",
+      "Organizations must balance profit and social responsibility.",
+      "Impacts long-term business sustainability."
+    ]
+  },
+  {
+    "keyword": "Communication Genres",
+    "response": [
+      "Different forms of workplace communication.",
+      "Includes verbal, written, and non-verbal communication.",
+      "Formal (reports, emails) vs. Informal (chat, meetings).",
+      "Effective communication improves collaboration.",
+      "Essential for clear instructions and project success."
+    ]
+  },
+  {
+    "keyword": "Communication Plan",
+    "response": [
+      "Defines how information is shared within a project.",
+      "Includes communication methods, frequency, and stakeholders.",
+      "Ensures clarity and reduces misunderstandings.",
+      "Uses tools like emails, meetings, and reports.",
+      "Essential for effective project coordination."
+    ]
+  },
+  {
+    "keyword": "Project Charter",
+    "response": [
+      "A document that formally authorizes a project.",
+      "Defines project objectives, stakeholders, and scope.",
+      "Includes high-level risks, timeline, and budget estimates.",
+      "Serves as a reference throughout the project lifecycle.",
+      "Approved by sponsors or senior management."
+    ]
+  },
+  {
+    "keyword": "Project Feasibility Study",
+    "response": [
+      "Analyzes the viability of a project before execution.",
+      "Includes technical, financial, and operational feasibility.",
+      "Assesses risks and potential returns on investment.",
+      "Helps decision-makers approve or reject projects.",
+      "Prevents resource wastage on impractical projects."
+    ]
+  },
+  {
+    "keyword": "Stakeholder Analysis",
+    "response": [
+      "Identifies people impacted by the project.",
+      "Classifies stakeholders based on power and interest.",
+      "Helps in communication planning and conflict resolution.",
+      "Ensures stakeholder expectations are managed.",
+      "Key to project success and smooth execution."
+    ]
+  },
+  {
+    "keyword": "Project Governance",
+    "response": [
+      "Defines structure for project decision-making.",
+      "Ensures alignment with organizational goals.",
+      "Involves policies, procedures, and reporting mechanisms.",
+      "Includes project board, sponsors, and committees.",
+      "Enhances transparency and accountability."
+    ]
+  },
+  {
+    "keyword": "Triple Constraint",
+    "response": [
+      "Refers to the three key project limitations.",
+      "Includes Scope, Time, and Cost.",
+      "Changes in one constraint affect the others.",
+      "Balancing these factors ensures project success.",
+      "Also known as the Iron Triangle."
+    ]
+  },
+  {
+    "keyword": "Baseline",
+    "response": [
+      "A reference point for project performance measurement.",
+      "Includes baseline for scope, cost, and schedule.",
+      "Used for tracking project deviations and changes.",
+      "Helps in variance analysis and corrective actions.",
+      "Critical for maintaining project control."
+    ]
+  },
+  {
+    "keyword": "Project Constraints",
+    "response": [
+      "Limitations that affect project execution.",
+      "Common constraints: scope, cost, time, and resources.",
+      "Other constraints include technology and legal factors.",
+      "Must be managed to avoid project failure.",
+      "Proper planning minimizes their impact."
+    ]
+  },
+  {
+    "keyword": "Project Assumptions",
+    "response": [
+      "Factors considered true for project planning.",
+      "Affect project scope, schedule, and costs.",
+      "Must be documented and validated over time.",
+      "Unverified assumptions may lead to risks.",
+      "Regular reviews help mitigate uncertainties."
+    ]
+  },
+  {
+    "keyword": "Project Deliverables",
+    "response": [
+      "Tangible or intangible outputs of a project.",
+      "Includes documents, software, and reports.",
+      "Defined in the project scope and milestones.",
+      "Must meet quality and stakeholder expectations.",
+      "Delivery timeline impacts overall project success."
+    ]
+  },
+  {
+    "keyword": "Project Kickoff Meeting",
+    "response": [
+      "First official meeting to start a project.",
+      "Introduces stakeholders, team members, and objectives.",
+      "Covers roles, expectations, and initial plans.",
+      "Ensures alignment before project execution begins.",
+      "Helps in identifying initial risks and concerns."
+    ]
+  },
+  {
+    "keyword": "Project",
+    "response": [
+      "A temporary effort to create a unique product, service, or result.",
+      "Has a defined start and end point.",
+      "Includes planning, execution, and closure phases.",
+      "Requires resource allocation and management.",
+      "Success depends on meeting objectives within constraints."
+    ]
+  },
+  {
+    "keyword": "Scope",
+    "response": [
+      "Defines what is included and excluded in a project.",
+      "Prevents scope creep and ensures project focus.",
+      "Includes deliverables, tasks, and boundaries.",
+      "Must be clearly documented and approved.",
+      "Managed through change control processes."
+    ]
+  },
+  {
+    "keyword": "Stakeholder",
+    "response": [
+      "Anyone with an interest in the project outcome.",
+      "Includes clients, sponsors, and team members.",
+      "Stakeholders influence project decisions and requirements.",
+      "Communication is key to stakeholder management.",
+      "Engagement ensures project success."
+    ]
+  },
+  {
+    "keyword": "Milestone",
+    "response": [
+      "A significant event in a project timeline.",
+      "Used to measure project progress.",
+      "Examples include project approval or phase completion.",
+      "Typically marked on Gantt charts.",
+      "Helps in tracking deadlines and deliverables."
+    ]
+  },
+  {
+    "keyword": "Risk",
+    "response": [
+      "An uncertain event that may impact the project.",
+      "Can be positive (opportunity) or negative (threat).",
+      "Risk management includes identification and mitigation.",
+      "Common risks: budget overruns, delays, and scope creep.",
+      "Regular monitoring ensures risk control."
+    ]
+  },
+  {
+    "keyword": "Budget",
+    "response": [
+      "Estimated cost required for project completion.",
+      "Includes direct and indirect expenses.",
+      "Must be monitored to prevent cost overruns.",
+      "Updated based on project progress and changes.",
+      "Helps in financial planning and resource allocation."
+    ]
+  },
+  {
+    "keyword": "Deliverable",
+    "response": [
+      "A tangible or intangible output of a project.",
+      "Examples include reports, software, and documents.",
+      "Must meet quality standards and stakeholder expectations.",
+      "Clearly defined in the project scope.",
+      "Tracked through project milestones."
+    ]
+  },
+  {
+    "keyword": "Gantt Chart",
+    "response": [
+      "A visual representation of a project schedule.",
+      "Displays tasks, durations, and dependencies.",
+      "Helps in planning and tracking progress.",
+      "Used for resource allocation and time management.",
+      "Essential for project monitoring and reporting."
+    ]
+  },
+  {
+    "keyword": "Critical Path",
+    "response": [
+      "The longest sequence of dependent tasks.",
+      "Determines the shortest time to complete a project.",
+      "Tasks on this path have zero float.",
+      "Any delay affects the project completion date.",
+      "Essential for schedule management."
+    ]
+  },
+  {
+    "keyword": "Agile",
+    "response": [
+      "An iterative and flexible project management approach.",
+      "Focuses on customer collaboration and adaptability.",
+      "Uses sprints for incremental development.",
+      "Common frameworks include Scrum and Kanban.",
+      "Ensures continuous improvement through feedback loops."
     ]
   }
 ]
