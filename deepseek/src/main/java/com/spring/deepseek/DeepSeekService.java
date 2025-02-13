@@ -29,14 +29,13 @@ public class DeepSeekService {
         try (InputStream inputStream = new ClassPathResource("static/spm_data.json").getInputStream()) {
             dataset = objectMapper.readValue(inputStream, new TypeReference<>() {});
         } catch (IOException e) {
-            // Log the error and initialize with an empty list
+
             System.err.println("Error loading dataset: " + e.getMessage());
             dataset = List.of();
         }
     }
 
     public String getFivePoints(String keyword) {
-        // First, check if the keyword exists in the dataset
         for (Map<String, Object> entry : dataset) {
             if (entry.get("keyword").toString().equalsIgnoreCase(keyword)) {
                 List<String> responseList = (List<String>) entry.get("response");
@@ -44,8 +43,42 @@ public class DeepSeekService {
             }
         }
 
-        // If not found, ask DeepSeek
-        String promptMessage = "Explain '" + keyword + "' in exactly 5 key points. Keep each point clear and concise.";
-        return chatModel.call(promptMessage);
+        String promptMessage = """
+    Act as a strict, rule-following assistant. Your task is to return exactly five key points for the given keyword, referring strictly to **Software Project Management (SPM)**.
+
+    IMPORTANT RULES:
+    1. Refer **ONLY** to the "Software Project Management" textbook by **Technical Publications** (Third Year, Computer Engineering).
+    2. Do NOT include any "<think>" tags.
+    3. Do NOT add explanations, introductions, or reasoning.
+    4. Output ONLY the five numbered key points.
+    5. Maintain the format below:
+
+    Example Response (for 'Risk Management'):
+    1. Risk identification helps in proactive project planning.
+    2. Risk assessment quantifies impact and likelihood.
+    3. Risk mitigation strategies reduce project uncertainties.
+    4. Contingency planning ensures project resilience.
+    5. Continuous monitoring improves risk response.
+
+    Now, generate five key points for:
+    """ + keyword + """
+    based strictly on the Software Project Management textbook by Technical Publications (Third Year, Computer Engineering).
+    """;
+
+        String response = chatModel.call(promptMessage).trim();
+
+        // Clean up DeepSeek's stubborn behavior (if it still misbehaves)
+        response = response.replaceAll("(?s)<think>.*?</think>", "").trim(); // Remove <think> section if present
+        response = response.replaceAll("\\*\\*", ""); // Remove any unwanted Markdown formatting
+
+        return response;
     }
+
+
+
+
+
+
+
+
 }

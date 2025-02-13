@@ -30,6 +30,6 @@ public class SPMController {
         model.addAttribute("keyword", keyword);
         model.addAttribute("response", responsePoints);
 
-        return "home";  // Displays result on same page
+        return "home";
     }
 }
