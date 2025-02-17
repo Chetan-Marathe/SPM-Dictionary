@@ -29,7 +29,6 @@ public class DeepSeekService {
         try (InputStream inputStream = new ClassPathResource("static/spm_data.json").getInputStream()) {
             dataset = objectMapper.readValue(inputStream, new TypeReference<>() {});
         } catch (IOException e) {
-
             System.err.println("Error loading dataset: " + e.getMessage());
             dataset = List.of();
         }
@@ -44,14 +43,13 @@ public class DeepSeekService {
         }
 
         String promptMessage = """
-    Act as a strict, rule-following assistant. Your task is to return exactly five key points for the given keyword, referring strictly to **Software Project Management (SPM)**.
+    Act as a strict, rule-following assistant. Your task is to return exactly five key points for the given keyword.
 
     IMPORTANT RULES:
-    1. Refer **ONLY** to the "Software Project Management" textbook by **Technical Publications** (Third Year, Computer Engineering).
-    2. Do NOT include any "<think>" tags.
-    3. Do NOT add explanations, introductions, or reasoning.
-    4. Output ONLY the five numbered key points.
-    5. Maintain the format below:
+    1. Do NOT include any "<think>" tags.
+    2. Do NOT add explanations, introductions, or reasoning.
+    3. Output ONLY the five numbered key points.
+    4. Maintain the format below:
 
     Example Response (for 'Risk Management'):
     1. Risk identification helps in proactive project planning.
@@ -61,9 +59,7 @@ public class DeepSeekService {
     5. Continuous monitoring improves risk response.
 
     Now, generate five key points for:
-    """ + keyword + """
-    based strictly on the Software Project Management textbook by Technical Publications (Third Year, Computer Engineering).
-    """;
+    """ + keyword;
 
         String response = chatModel.call(promptMessage).trim();
 
@@ -73,12 +69,4 @@ public class DeepSeekService {
 
         return response;
     }
-
-
-
-
-
-
-
-
 }
