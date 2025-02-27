@@ -21,8 +21,17 @@
 
         .container {
             width: 100%;
-            max-width: 800px;
+            max-width: 1200px;
             margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        @media (min-width: 1024px) {
+            .container {
+                flex-direction: row;
+            }
         }
 
         h1 {
@@ -83,6 +92,52 @@
             transform: translateY(-1px);
         }
 
+        .sidebar {
+            width: 100%;
+            max-height: 70vh;
+            overflow-y: auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 1rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+
+        @media (min-width: 1024px) {
+            .sidebar {
+                width: 30%;
+                position: sticky;
+                top: 2rem;
+            }
+        }
+
+        .keyword-list {
+            list-style-type: none;
+        }
+
+        .keyword-item {
+            padding: 0.75rem 1rem;
+            margin: 0.5rem 0;
+            background: #f7fafc;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .keyword-item:hover {
+            background: #edf2f7;
+            transform: translateX(5px);
+        }
+
+        .main-content {
+            width: 100%;
+        }
+
+        @media (min-width: 1024px) {
+            .main-content {
+                width: 70%;
+            }
+        }
+
         .result-container {
             background: white;
             padding: 2rem;
@@ -114,6 +169,18 @@
             transform: translateX(5px);
         }
 
+        .filter-container {
+            margin-bottom: 1.5rem;
+        }
+
+        #keyword-filter {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            border: 2px solid #e2e8f0;
+            border-radius: 0.5rem;
+            font-size: 0.9rem;
+        }
+
         @media (max-width: 640px) {
             body {
                 padding: 1rem;
@@ -131,22 +198,59 @@
 </head>
 <body>
 <div class="container">
-    <h1>SPM Dictionary</h1>
-    <p class="subtitle">Enter an SPM keyword to get a concise 5-point explanation.</p>
-
-    <div class="search-container">
-        <form action="/query" method="get">
-            <input type="text" name="keyword" placeholder="Enter SPM keyword..." required>
-            <button type="submit">Search</button>
-        </form>
-    </div>
-
-    <div th:if="${response}" class="result-container">
-        <h2> <span th:text="${keyword}"></span></h2>
-        <ul>
-            <li th:each="point : ${response}" class="point" th:text="${point}"></li>
+    <div class="sidebar">
+        <h2>SPM Keywords</h2>
+        <div class="filter-container">
+            <input type="text" id="keyword-filter" placeholder="Search keywords..."
+                   onkeyup="filterKeywords()">
+        </div>
+        <ul class="keyword-list" id="keywordList">
+            <li th:each="kw : ${keywords}" th:text="${kw}"
+                class="keyword-item" onclick="fetchKeyword(this.textContent)"></li>
         </ul>
     </div>
+
+    <div class="main-content">
+        <h1>SPM Guide</h1>
+        <p class="subtitle">Click on any keyword to get a concise 5-point explanation.</p>
+
+        <div class="search-container">
+            <form action="/query" method="get">
+                <input type="text" name="keyword" id="keyword-search" placeholder="Enter SPM keyword..." required>
+                <button type="submit">Search</button>
+            </form>
+        </div>
+
+        <div th:if="${response}" class="result-container">
+            <h2><span id="current-keyword" th:text="${keyword}"></span></h2>
+            <ul>
+                <li th:each="point : ${response}" class="point" th:text="${point}"></li>
+            </ul>
+        </div>
+    </div>
 </div>
+
+<script>
+    function fetchKeyword(keyword) {
+        // Update the search field with the clicked keyword
+        document.getElementById('keyword-search').value = keyword;
+
+        // Submit the form programmatically
+        document.querySelector('form').submit();
+    }
+
+    function filterKeywords() {
+        const filterValue = document.getElementById('keyword-filter').value.toLowerCase();
+        const keywordItems = document.querySelectorAll('#keywordList .keyword-item');
+
+        keywordItems.forEach(item => {
+            if (item.textContent.toLowerCase().includes(filterValue)) {
+                item.style.display = 'block';
+            } else {
+                item.style.display = 'none';
+            }
+        });
+    }
+</script>
 </body>
 </html>

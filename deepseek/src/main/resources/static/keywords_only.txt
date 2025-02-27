@@ -1,0 +1,231 @@
+Software Project
+Need of Software Project Management
+Project
+Software Project versus Other Types of Project
+Project vs Flow Type Work
+Project Life Cycle
+Processes and Knowledge Areas in Project Management
+Build or Buy Decision
+Work Breakdown Structure
+Resource Breakdown Structure
+Risk Breakdown Structure
+Organizational Breakdown Structure
+Evolutionary Work Breakdown Structure
+Project Management Body of Knowledge
+Purpose of PMBOK
+Program Management
+Portfolio Management
+Different WBS Types
+Tree Structure View
+Integration Management
+Scope Management
+Schedule Management
+Cost Management
+Quality Management
+Resource Management
+Communication Management
+Risk Management
+Procurement Management
+Stakeholder Management
+Project Management
+Steps for Project Planning
+Choose Project
+Classify Scope of the Project and Objectives
+Classify Project Infrastructure
+Examine Project Characteristics
+Classify Project Products and Activities
+Calculate Effort for Each Activity
+Classify Activity Risks
+Allocate Resources
+Review Plan
+Execute Plan
+Execute Lower Levels of Planning
+Benefits of Critical Path
+PERT Chart
+Advantages of PERT
+Disadvantages of PERT
+Optimistic Time
+Pessimistic Time
+PERT Formula
+Gantt Chart
+Disadvantages of Utilizing the Gantt Chart
+How to Make Gantt Chart
+PERT Chart vs Gantt Chart
+Gantt Project
+Purpose of a PERT Chart
+Microsoft Project
+Primavera Project Management Software
+ORACLE
+ERP
+Features of Primavera
+Primavera Pros
+Primavera Cons
+MS Project Features
+MS Project Pros
+MS Project Cons
+Objectives of Project Planning
+Project Schedules
+Activities
+Identifying Activities
+The Activity-Based Approach
+The Product-Based Approach
+The Hybrid Approach
+Sequencing and Scheduling
+Network Planning Models
+Formulating a Network Model
+Critical Path of CPM
+Activity Based Scheduling
+Objectives of Project Planning
+Project Plan
+Team Leader
+Team
+Project Schedule
+Activities
+The Activity-Based Approach
+Identifying Critical Path
+Activity Float
+Remedies of Critical Path
+Shortening the Project Duration
+Identifying Critical Activities
+Activity Relationships
+Finish-to-Start (FS)
+Finish-to-Finish (FF)
+Start-to-Start (SS)
+Start-to-Finish (SF)
+The Forward Pass
+The Backward Pass
+Project Tracking and Control
+Creating Framework
+Project Management Plan
+Work Performance Information
+Rejected Change Requests
+Expert Judgment
+Earned Value Technique (EVT)
+Organizational Project Management
+Project Management Information System
+Collection of Project Data
+Management
+Programmers
+Tester
+End Users
+Bugs
+Budgets
+Data Collection Methods
+Type of Tools
+Schedule of Observations
+Guide to Interviewing
+Schedule of Interviews and Questionnaire Sent by Mail
+Scale of Evaluation
+Checklist
+Institutional Calendar
+Construction of Schedules and Questionnaires
+Questionnaire vs. Schedule
+The Construction Process
+Pilot Study
+Measurement Scale and Indices
+Preliminary Trials
+Visualizing Progress
+Slip Chart
+Time Line
+Cost Monitoring
+Budgeting for the Project
+Time Management Effortlessly
+Project Change Management
+Earned Value Applicability
+Earned Value Analysis
+Earned Value
+Planned Value
+Actual Cost
+Budget at Completion
+Project Tracking
+Types of Project Status Reports
+How and What Information to Update
+Variances
+Positive Variances
+Negative Variances
+Change Control
+Change Control Activities
+Usage of Metadata
+Software Configuration Management
+Open Source Configuration Tools
+Managing Contracts
+Types of Contract
+Fixed Price Contracts
+Time and Materials Contracts
+Fixed Price Per Delivered Unit
+Contract Management
+The Stages of Contract Management
+Contract Management Challenges
+Building Relationships
+Invitation to Tender
+Agile Project Management
+Agile Process
+Sprints
+Scope of Agile Project Management
+Agile Project Manager Responsibilities
+Agile Project Manager
+Agile Software Development
+Agile Methodology
+Agile Manifesto
+Advantages of Agile Methodology
+Speed to Market
+Criticism of Agile Methodology
+Scrum
+Scrum Team
+Product Owner
+Scrum Master
+Product Backlog
+Sprint Planning Meeting
+Daily Scrum
+Sprint Review Meeting
+Sprint Retrospective
+Predictive versus Empirical Management
+Predictive Project
+Predictive Management
+Empirical Management
+Empirical Process Control
+Non-Agile and Agile Projects
+Comparison between Non-Agile and Agile Project
+Traditional Vs Agile
+Waterfall Model
+Agile vs Waterfall
+Three Stages of Agile Project
+Team's Up-Skilling
+Self-Sufficient Agile Team
+Estimation
+Different Stages of Agile
+Scope Management
+Scheduling in Agile Projects
+Scheduling and Tracking
+Staffing in Software Projects
+Managing People
+Organizational Behaviour
+Project Manager
+Roles of Manager
+Understanding Behaviour
+Positive Approach
+Importance of OB
+Interpretivist Approach
+Organizational Theories
+McGregor’s Theory of X and Y
+Z Theory
+Maslow’s Hierarchy of Needs
+Best Methods of Staff Selection
+General Approach for Recruitment Policy
+Motivation
+Maslow’s Hierarchy of Needs
+Herzberg’s Two-Factor Theory
+Oldham & Hackman Job Characteristic Model
+The Five Stages of Team Development
+Balancing Team with Different Types of People
+Decision Making
+Team Vigilance
+Agile
+Critical Path
+Gantt Chart
+Budget
+Risk
+Milestone
+Project
+Stakeholder analysis
+Virtual teams
